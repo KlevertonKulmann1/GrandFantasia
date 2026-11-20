@@ -75,13 +75,14 @@
                 <EditNode ReadOnly="0" />
                 <SingleEditNode EditType="0" />
             </BaseWndProperty>
-            <Style ParentNode="1" CtrlType="33554432" />
+            <Style ParentNode="1" CtrlType="8388608" />
             <BaseWndProperty WindowID="7" WindowText="" WindowLeft="22" WindowTop="42" WindowHeight="161" WindowWidth="25" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="" FontFace="²Ó©úÅé" FontSize="10" FontColor="16777215" FontStyle="1" />
-                <TextNode TextAlign="0" MultiLine="0" />
+                <BaseCtrlProperty Tips="" FontFace="Arial" FontSize="10" FontColor="16777215" FontStyle="1" />
+                <EditNode ReadOnly="0" />
+                <SingleEditNode EditType="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
             <BaseWndProperty WindowID="8" WindowText="" WindowLeft="23" WindowTop="71" WindowHeight="161" WindowWidth="25" Visible="1" FixSize="0" Drag="0" Drop="0">
