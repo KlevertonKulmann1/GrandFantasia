@@ -1,0 +1,1580 @@
+Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+Mesg:	 --Send LaunchLog Failed [http://log.x-legend.com.tw?mark=001&log=I&mac=68a3c4f4b269&pid=GF01&locate=HK&time=1672756365&sign=7bdeec167a63cf02dc848f4e4fc2a20d&os=13]Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+
+
+
+*****************************************************************
+Tuesday, January 03, 2023 ## 15:33:33
+*****************************************************************
+Mesg:	 --Before:V.1,3,
+1,728,,Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/CompressionGameData/version.txt?202301031433
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/GameDataFileList.txt.bz2?202301031433
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/GrandFantasia.exe.bz2?202301031433
+Mesg:	 --patch success \GrandFantasia.exe 	zip:0 	crc:1953479298 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/CommonDlgJ.xml.bz2?202301031433
+Mesg:	 --patch success \UI\CommonDlgJ.xml 	zip:0 	crc:3678669948 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/CommonDlgK.xml.bz2?202301031433
+Mesg:	 --patch success \UI\CommonDlgK.xml 	zip:0 	crc:2968561000 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11267.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11267.dds :1Mesg:	 --patch success \UI\itemicon\A11267.dds 	zip:1 	crc:264558370 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11268.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11268.dds :1Mesg:	 --patch success \UI\itemicon\A11268.dds 	zip:1 	crc:1021946390 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11353.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11353.dds :1Mesg:	 --patch success \UI\itemicon\A11353.dds 	zip:1 	crc:2646678814 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11354.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11354.dds :1Mesg:	 --patch success \UI\itemicon\A11354.dds 	zip:1 	crc:1763075086 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11372.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11372.dds :1Mesg:	 --patch success \UI\itemicon\A11372.dds 	zip:1 	crc:3923016236 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11373.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11373.dds :1Mesg:	 --patch success \UI\itemicon\A11373.dds 	zip:1 	crc:4014133491 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11397.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11397.dds :1Mesg:	 --patch success \UI\itemicon\A11397.dds 	zip:1 	crc:55353905 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11398.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11398.dds :1Mesg:	 --patch success \UI\itemicon\A11398.dds 	zip:1 	crc:3223954546 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11399.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11399.dds :1Mesg:	 --patch success \UI\itemicon\A11399.dds 	zip:1 	crc:2280551867 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11400.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11400.dds :1Mesg:	 --patch success \UI\itemicon\A11400.dds 	zip:1 	crc:1026289918 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11401.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11401.dds :1Mesg:	 --patch success \UI\itemicon\A11401.dds 	zip:1 	crc:3938936100 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11402.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11402.dds :1Mesg:	 --patch success \UI\itemicon\A11402.dds 	zip:1 	crc:2157231885 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11413.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11413.dds :1Mesg:	 --patch success \UI\itemicon\A11413.dds 	zip:1 	crc:2221715641 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11414.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11414.dds :1Mesg:	 --patch success \UI\itemicon\A11414.dds 	zip:1 	crc:3622805302 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11415.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11415.dds :1Mesg:	 --patch success \UI\itemicon\A11415.dds 	zip:1 	crc:484414026 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11416.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11416.dds :1Mesg:	 --patch success \UI\itemicon\A11416.dds 	zip:1 	crc:678565177 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11423.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11423.dds :1Mesg:	 --patch success \UI\itemicon\A11423.dds 	zip:1 	crc:193835931 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11424.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11424.dds :1Mesg:	 --patch success \UI\itemicon\A11424.dds 	zip:1 	crc:4030834244 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11425.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11425.dds :1Mesg:	 --patch success \UI\itemicon\A11425.dds 	zip:1 	crc:3162681021 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11426.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11426.dds :1Mesg:	 --patch success \UI\itemicon\A11426.dds 	zip:1 	crc:2530443321 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11427.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11427.dds :1Mesg:	 --patch success \UI\itemicon\A11427.dds 	zip:1 	crc:2405488264 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11432.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11432.dds :1Mesg:	 --patch success \UI\itemicon\A11432.dds 	zip:1 	crc:565870285 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11433.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11433.dds :1Mesg:	 --patch success \UI\itemicon\A11433.dds 	zip:1 	crc:2007714681 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21133.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21133.dds :1Mesg:	 --patch success \UI\itemicon\A21133.dds 	zip:1 	crc:2420396489 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21134.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21134.dds :1Mesg:	 --patch success \UI\itemicon\A21134.dds 	zip:1 	crc:89503780 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21217.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21217.dds :1Mesg:	 --patch success \UI\itemicon\A21217.dds 	zip:1 	crc:939078910 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21218.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21218.dds :1Mesg:	 --patch success \UI\itemicon\A21218.dds 	zip:1 	crc:2057933730 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21281.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21281.dds :1Mesg:	 --patch success \UI\itemicon\A21281.dds 	zip:1 	crc:3919086863 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21282.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21282.dds :1Mesg:	 --patch success \UI\itemicon\A21282.dds 	zip:1 	crc:623411457 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21295.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21295.dds :1Mesg:	 --patch success \UI\itemicon\A21295.dds 	zip:1 	crc:2604973579 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21296.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21296.dds :1Mesg:	 --patch success \UI\itemicon\A21296.dds 	zip:1 	crc:1895348746 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21315.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21315.dds :1Mesg:	 --patch success \UI\itemicon\A21315.dds 	zip:1 	crc:1343570824 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21316.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21316.dds :1Mesg:	 --patch success \UI\itemicon\A21316.dds 	zip:1 	crc:3398289863 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21317.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21317.dds :1Mesg:	 --patch success \UI\itemicon\A21317.dds 	zip:1 	crc:904722250 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21318.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21318.dds :1Mesg:	 --patch success \UI\itemicon\A21318.dds 	zip:1 	crc:1954714541 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21319.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21319.dds :1Mesg:	 --patch success \UI\itemicon\A21319.dds 	zip:1 	crc:986180669 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21320.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21320.dds :1Mesg:	 --patch success \UI\itemicon\A21320.dds 	zip:1 	crc:2510880402 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21331.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21331.dds :1Mesg:	 --patch success \UI\itemicon\A21331.dds 	zip:1 	crc:755945632 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21332.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21332.dds :1Mesg:	 --patch success \UI\itemicon\A21332.dds 	zip:1 	crc:3273422944 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21333.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21333.dds :1Mesg:	 --patch success \UI\itemicon\A21333.dds 	zip:1 	crc:3964277046 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21334.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21334.dds :1Mesg:	 --patch success \UI\itemicon\A21334.dds 	zip:1 	crc:785379869 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21343.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21343.dds :1Mesg:	 --patch success \UI\itemicon\A21343.dds 	zip:1 	crc:3538030676 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21344.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21344.dds :1Mesg:	 --patch success \UI\itemicon\A21344.dds 	zip:1 	crc:2740512747 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21347.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21347.dds :1Mesg:	 --patch success \UI\itemicon\A21347.dds 	zip:1 	crc:997966415 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21348.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21348.dds :1Mesg:	 --patch success \UI\itemicon\A21348.dds 	zip:1 	crc:740195248 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60425.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60425.dds :1Mesg:	 --patch success \UI\itemicon\A60425.dds 	zip:1 	crc:1300770234 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60486.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60486.dds :1Mesg:	 --patch success \UI\itemicon\A60486.dds 	zip:1 	crc:933698341 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60496.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60496.dds :1Mesg:	 --patch success \UI\itemicon\A60496.dds 	zip:1 	crc:3423652146 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60497.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60497.dds :1Mesg:	 --patch success \UI\itemicon\A60497.dds 	zip:1 	crc:1031028973 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60498.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60498.dds :1Mesg:	 --patch success \UI\itemicon\A60498.dds 	zip:1 	crc:572691922 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60499.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60499.dds :1Mesg:	 --patch success \UI\itemicon\A60499.dds 	zip:1 	crc:1427769069 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60500.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60500.dds :1Mesg:	 --patch success \UI\itemicon\A60500.dds 	zip:1 	crc:2234319038 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60504.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60504.dds :1Mesg:	 --patch success \UI\itemicon\A60504.dds 	zip:1 	crc:1863927472 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60505.dds.bz2?202301031433
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60505.dds :1Mesg:	 --patch success \UI\itemicon\A60505.dds 	zip:1 	crc:1328268484 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60506.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60506.dds :1Mesg:	 --patch success \UI\itemicon\A60506.dds 	zip:1 	crc:2106612694 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60507.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60507.dds :1Mesg:	 --patch success \UI\itemicon\A60507.dds 	zip:1 	crc:4113091277 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/F12762.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\F12762.dds :1Mesg:	 --patch success \UI\itemicon\F12762.dds 	zip:1 	crc:3350217389 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/F20278.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\F20278.dds :1Mesg:	 --patch success \UI\itemicon\F20278.dds 	zip:1 	crc:355693319 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02473.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02473.dds :1Mesg:	 --patch success \UI\itemicon\I02473.dds 	zip:1 	crc:615997398 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02476.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02476.dds :1Mesg:	 --patch success \UI\itemicon\I02476.dds 	zip:1 	crc:1450919525 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02566.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02566.dds :1Mesg:	 --patch success \UI\itemicon\I02566.dds 	zip:1 	crc:1661693270 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02573.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02573.dds :1Mesg:	 --patch success \UI\itemicon\I02573.dds 	zip:1 	crc:2746301096 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02574.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02574.dds :1Mesg:	 --patch success \UI\itemicon\I02574.dds 	zip:1 	crc:1138138139 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02575.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02575.dds :1Mesg:	 --patch success \UI\itemicon\I02575.dds 	zip:1 	crc:2837042953 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02576.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02576.dds :1Mesg:	 --patch success \UI\itemicon\I02576.dds 	zip:1 	crc:3696531270 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02577.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02577.dds :1Mesg:	 --patch success \UI\itemicon\I02577.dds 	zip:1 	crc:2371803608 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02582.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02582.dds :1Mesg:	 --patch success \UI\itemicon\I02582.dds 	zip:1 	crc:1731870809 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02583.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02583.dds :1Mesg:	 --patch success \UI\itemicon\I02583.dds 	zip:1 	crc:125995405 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02584.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02584.dds :1Mesg:	 --patch success \UI\itemicon\I02584.dds 	zip:1 	crc:3988412746 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I20076.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I20076.dds :1Mesg:	 --patch success \UI\itemicon\I20076.dds 	zip:1 	crc:3747634934 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I20077.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I20077.dds :1Mesg:	 --patch success \UI\itemicon\I20077.dds 	zip:1 	crc:734748276 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I20078.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I20078.dds :1Mesg:	 --patch success \UI\itemicon\I20078.dds 	zip:1 	crc:1043108196 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I20079.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I20079.dds :1Mesg:	 --patch success \UI\itemicon\I20079.dds 	zip:1 	crc:1573146069 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I20080.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\I20080.dds :1Mesg:	 --patch success \UI\itemicon\I20080.dds 	zip:1 	crc:4036689839 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W36101.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W36101.dds :1Mesg:	 --patch success \UI\itemicon\W36101.dds 	zip:1 	crc:2957216715 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W36301.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W36301.dds :1Mesg:	 --patch success \UI\itemicon\W36301.dds 	zip:1 	crc:600116314 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W36401.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W36401.dds :1Mesg:	 --patch success \UI\itemicon\W36401.dds 	zip:1 	crc:2880507567 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W45301.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W45301.dds :1Mesg:	 --patch success \UI\itemicon\W45301.dds 	zip:1 	crc:3080864443 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W45401.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W45401.dds :1Mesg:	 --patch success \UI\itemicon\W45401.dds 	zip:1 	crc:3144895918 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W45801.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W45801.dds :1Mesg:	 --patch success \UI\itemicon\W45801.dds 	zip:1 	crc:3997122256 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W69401.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\W69401.dds :1Mesg:	 --patch success \UI\itemicon\W69401.dds 	zip:1 	crc:610133997 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/WF9301.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\WF9301.dds :1Mesg:	 --patch success \UI\itemicon\WF9301.dds 	zip:1 	crc:2054185414 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/WG2201.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\WG2201.dds :1Mesg:	 --patch success \UI\itemicon\WG2201.dds 	zip:1 	crc:1181205751 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/WG2301.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\itemicon\WG2301.dds :1Mesg:	 --patch success \UI\itemicon\WG2301.dds 	zip:1 	crc:2506566630 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_0.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_0.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_0.dds 	zip:1 	crc:212421242 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_100.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_100.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_100.dds 	zip:1 	crc:212421242 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_101.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_101.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_101.dds 	zip:1 	crc:212421242 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_102.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_102.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_102.dds 	zip:1 	crc:212421242 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5728.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5728.dds :1Mesg:	 --patch success \UI\skillicon\E5728.dds 	zip:1 	crc:2894351831 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5731.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5731.dds :1Mesg:	 --patch success \UI\skillicon\E5731.dds 	zip:1 	crc:2138268736 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5829.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5829.dds :1Mesg:	 --patch success \UI\skillicon\E5829.dds 	zip:1 	crc:2032005891 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5835.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5835.dds :1Mesg:	 --patch success \UI\skillicon\E5835.dds 	zip:1 	crc:3476181701 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5836.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5836.dds :1Mesg:	 --patch success \UI\skillicon\E5836.dds 	zip:1 	crc:2076676591 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5837.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5837.dds :1Mesg:	 --patch success \UI\skillicon\E5837.dds 	zip:1 	crc:2334571705 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5838.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5838.dds :1Mesg:	 --patch success \UI\skillicon\E5838.dds 	zip:1 	crc:2016398425 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5839.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5839.dds :1Mesg:	 --patch success \UI\skillicon\E5839.dds 	zip:1 	crc:2785962826 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5844.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5844.dds :1Mesg:	 --patch success \UI\skillicon\E5844.dds 	zip:1 	crc:3959027339 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5845.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5845.dds :1Mesg:	 --patch success \UI\skillicon\E5845.dds 	zip:1 	crc:3771648569 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5846.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5846.dds :1Mesg:	 --patch success \UI\skillicon\E5846.dds 	zip:1 	crc:920365731 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/C053.kfm.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\C053.kfm :1Mesg:	 --patch success \chair\C053.kfm 	zip:1 	crc:2996979970 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/C621.kfm.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\C621.kfm :1Mesg:	 --patch success \chair\C621.kfm 	zip:1 	crc:3036802801 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/C622.kfm.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\C622.kfm :1Mesg:	 --patch success \chair\C622.kfm 	zip:1 	crc:4069934038 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/C623.kfm.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\C623.kfm :1Mesg:	 --patch success \chair\C623.kfm 	zip:1 	crc:159307656 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/C624.kfm.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\C624.kfm :1Mesg:	 --patch success \chair\C624.kfm 	zip:1 	crc:2768864734 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/animation/C053.kf.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\animation\C053.kf :1Mesg:	 --patch success \chair\animation\C053.kf 	zip:1 	crc:4257436390 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/animation/C621.kf.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\animation\C621.kf :1Mesg:	 --patch success \chair\animation\C621.kf 	zip:1 	crc:518318974 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/animation/C622.kf.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\animation\C622.kf :1Mesg:	 --patch success \chair\animation\C622.kf 	zip:1 	crc:176659383 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/animation/C623.kf.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\animation\C623.kf :1Mesg:	 --patch success \chair\animation\C623.kf 	zip:1 	crc:2073604343 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/animation/C624.kf.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\animation\C624.kf :1Mesg:	 --patch success \chair\animation\C624.kf 	zip:1 	crc:1538544230 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/model/C053.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\model\C053.nif :1Mesg:	 --patch success \chair\model\C053.nif 	zip:1 	crc:1149103024 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/model/C621.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\model\C621.nif :1Mesg:	 --patch success \chair\model\C621.nif 	zip:1 	crc:1629447906 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/model/C622.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\model\C622.nif :1Mesg:	 --patch success \chair\model\C622.nif 	zip:1 	crc:1369738206 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/model/C623.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\model\C623.nif :1Mesg:	 --patch success \chair\model\C623.nif 	zip:1 	crc:1149571667 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/model/C624.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\model\C624.nif :1Mesg:	 --patch success \chair\model\C624.nif 	zip:1 	crc:460195813 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C05301.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C05301.dds :1Mesg:	 --patch success \chair\texture\C05301.dds 	zip:1 	crc:3400893507 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C05351.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C05351.dds :1Mesg:	 --patch success \chair\texture\C05351.dds 	zip:1 	crc:2133077892 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C05352.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C05352.dds :1Mesg:	 --patch success \chair\texture\C05352.dds 	zip:1 	crc:3763893467 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62101.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62101.dds :1Mesg:	 --patch success \chair\texture\C62101.dds 	zip:1 	crc:1647113007 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62151.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62151.dds :1Mesg:	 --patch success \chair\texture\C62151.dds 	zip:1 	crc:3177024718 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62152.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62152.dds :1Mesg:	 --patch success \chair\texture\C62152.dds 	zip:1 	crc:1736141020 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62153.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62153.dds :1Mesg:	 --patch success \chair\texture\C62153.dds 	zip:1 	crc:1759139957 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62201.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62201.dds :1Mesg:	 --patch success \chair\texture\C62201.dds 	zip:1 	crc:3193281893 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62251.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62251.dds :1Mesg:	 --patch success \chair\texture\C62251.dds 	zip:1 	crc:2920665739 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62252.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62252.dds :1Mesg:	 --patch success \chair\texture\C62252.dds 	zip:1 	crc:360881680 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62301.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62301.dds :1Mesg:	 --patch success \chair\texture\C62301.dds 	zip:1 	crc:4039114248 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62401.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62401.dds :1Mesg:	 --patch success \chair\texture\C62401.dds 	zip:1 	crc:554661479 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/chair/texture/C62451.dds.bz2?202301031434
+Mesg:	 --Add Remove File To Pack chair\texture\C62451.dds :1Mesg:	 --patch success \chair\texture\C62451.dds 	zip:1 	crc:789558142 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1251.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1251.nif :1Mesg:	 --patch success \char\model\B1251.nif 	zip:1 	crc:4001598608 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1252.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1252.nif :1Mesg:	 --patch success \char\model\B1252.nif 	zip:1 	crc:2992295890 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1718.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1718.nif :1Mesg:	 --patch success \char\model\B1718.nif 	zip:1 	crc:2359165385 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1887.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1887.nif :1Mesg:	 --patch success \char\model\B1887.nif 	zip:1 	crc:2786018167 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1888.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1888.nif :1Mesg:	 --patch success \char\model\B1888.nif 	zip:1 	crc:3784499361 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1889.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1889.nif :1Mesg:	 --patch success \char\model\B1889.nif 	zip:1 	crc:425090636 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1890.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B1890.nif :1Mesg:	 --patch success \char\model\B1890.nif 	zip:1 	crc:1837808384 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B2G79.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B2G79.nif :1Mesg:	 --patch success \char\model\B2G79.nif 	zip:1 	crc:3662441761 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B2G80.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B2G80.nif :1Mesg:	 --patch success \char\model\B2G80.nif 	zip:1 	crc:1932636416 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B2I11.nif.bz2?202301031434
+Mesg:	 --Add Remove File To Pack char\model\B2I11.nif :1Mesg:	 --patch success \char\model\B2I11.nif 	zip:1 	crc:4015456500 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B3A61.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\B3A61.nif :1Mesg:	 --patch success \char\model\B3A61.nif 	zip:1 	crc:2350400429 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B3D24.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\B3D24.nif :1Mesg:	 --patch success \char\model\B3D24.nif 	zip:1 	crc:146351088 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B4A40.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\B4A40.nif :1Mesg:	 --patch success \char\model\B4A40.nif 	zip:1 	crc:654163032 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B5A03.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\B5A03.nif :1Mesg:	 --patch success \char\model\B5A03.nif 	zip:1 	crc:1957584105 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1251.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1251.nif :1Mesg:	 --patch success \char\model\G1251.nif 	zip:1 	crc:3760720690 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1252.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1252.nif :1Mesg:	 --patch success \char\model\G1252.nif 	zip:1 	crc:4120043059 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1718.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1718.nif :1Mesg:	 --patch success \char\model\G1718.nif 	zip:1 	crc:1739321125 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1887.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1887.nif :1Mesg:	 --patch success \char\model\G1887.nif 	zip:1 	crc:3965877096 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1888.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1888.nif :1Mesg:	 --patch success \char\model\G1888.nif 	zip:1 	crc:3220154000 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1889.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1889.nif :1Mesg:	 --patch success \char\model\G1889.nif 	zip:1 	crc:2422688078 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1890.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G1890.nif :1Mesg:	 --patch success \char\model\G1890.nif 	zip:1 	crc:3850536513 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G2I27.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G2I27.nif :1Mesg:	 --patch success \char\model\G2I27.nif 	zip:1 	crc:2733926908 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G2I28.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G2I28.nif :1Mesg:	 --patch success \char\model\G2I28.nif 	zip:1 	crc:453163195 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G2I29.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G2I29.nif :1Mesg:	 --patch success \char\model\G2I29.nif 	zip:1 	crc:2701130312 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G3A80.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G3A80.nif :1Mesg:	 --patch success \char\model\G3A80.nif 	zip:1 	crc:653567526 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G3A81.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G3A81.nif :1Mesg:	 --patch success \char\model\G3A81.nif 	zip:1 	crc:2691087756 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G3A82.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G3A82.nif :1Mesg:	 --patch success \char\model\G3A82.nif 	zip:1 	crc:2487005864 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G3A83.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\G3A83.nif :1Mesg:	 --patch success \char\model\G3A83.nif 	zip:1 	crc:952165654 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A1U.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A1U.nif :1Mesg:	 --patch success \char\model\X6A1U.nif 	zip:1 	crc:787615704 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2D.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A2D.nif :1Mesg:	 --patch success \char\model\X6A2D.nif 	zip:1 	crc:1636240244 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2E.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A2E.nif :1Mesg:	 --patch success \char\model\X6A2E.nif 	zip:1 	crc:1196272118 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2F.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A2F.nif :1Mesg:	 --patch success \char\model\X6A2F.nif 	zip:1 	crc:924616141 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2G.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A2G.nif :1Mesg:	 --patch success \char\model\X6A2G.nif 	zip:1 	crc:207261379 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2H.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A2H.nif :1Mesg:	 --patch success \char\model\X6A2H.nif 	zip:1 	crc:216094929 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2I.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6A2I.nif :1Mesg:	 --patch success \char\model\X6A2I.nif 	zip:1 	crc:777108482 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6AK4.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6AK4.nif :1Mesg:	 --patch success \char\model\X6AK4.nif 	zip:1 	crc:2534226165 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6AK5.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6AK5.nif :1Mesg:	 --patch success \char\model\X6AK5.nif 	zip:1 	crc:3655717698 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6AK6.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6AK6.nif :1Mesg:	 --patch success \char\model\X6AK6.nif 	zip:1 	crc:1762597902 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6AY7.nif.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\model\X6AY7.nif :1Mesg:	 --patch success \char\model\X6AY7.nif 	zip:1 	crc:1226393441 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1251H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1251H01.dds :1Mesg:	 --patch success \char\texture\B1251H01.dds 	zip:1 	crc:3261012430 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1251H51.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1251H51.dds :1Mesg:	 --patch success \char\texture\B1251H51.dds 	zip:1 	crc:2594496744 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1252H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1252H01.dds :1Mesg:	 --patch success \char\texture\B1252H01.dds 	zip:1 	crc:1395524175 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1587H03.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1587H03.dds :1Mesg:	 --patch success \char\texture\B1587H03.dds 	zip:1 	crc:3300677668 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1591H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1591H02.dds :1Mesg:	 --patch success \char\texture\B1591H02.dds 	zip:1 	crc:2066437804 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1698H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1698H02.dds :1Mesg:	 --patch success \char\texture\B1698H02.dds 	zip:1 	crc:1122919151 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1718H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1718H01.dds :1Mesg:	 --patch success \char\texture\B1718H01.dds 	zip:1 	crc:1925056553 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1718H51.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1718H51.dds :1Mesg:	 --patch success \char\texture\B1718H51.dds 	zip:1 	crc:4216429791 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1718H52.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1718H52.dds :1Mesg:	 --patch success \char\texture\B1718H52.dds 	zip:1 	crc:2847028465 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1718H53.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1718H53.dds :1Mesg:	 --patch success \char\texture\B1718H53.dds 	zip:1 	crc:1556274019 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1718H54.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1718H54.dds :1Mesg:	 --patch success \char\texture\B1718H54.dds 	zip:1 	crc:3717549781 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1718H55.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1718H55.dds :1Mesg:	 --patch success \char\texture\B1718H55.dds 	zip:1 	crc:1604924766 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1771H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1771H02.dds :1Mesg:	 --patch success \char\texture\B1771H02.dds 	zip:1 	crc:3578118514 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1773H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1773H02.dds :1Mesg:	 --patch success \char\texture\B1773H02.dds 	zip:1 	crc:1449241563 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1780H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1780H02.dds :1Mesg:	 --patch success \char\texture\B1780H02.dds 	zip:1 	crc:3476049666 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1887H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1887H01.dds :1Mesg:	 --patch success \char\texture\B1887H01.dds 	zip:1 	crc:1981897844 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1888H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1888H01.dds :1Mesg:	 --patch success \char\texture\B1888H01.dds 	zip:1 	crc:2439493981 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1889H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1889H01.dds :1Mesg:	 --patch success \char\texture\B1889H01.dds 	zip:1 	crc:3158085448 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1890H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B1890H01.dds :1Mesg:	 --patch success \char\texture\B1890H01.dds 	zip:1 	crc:244571481 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2A03S75.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2A03S75.dds :1Mesg:	 --patch success \char\texture\B2A03S75.dds 	zip:1 	crc:1486950843 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2A73H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2A73H02.dds :1Mesg:	 --patch success \char\texture\B2A73H02.dds 	zip:1 	crc:2056501899 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2D01S71.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2D01S71.dds :1Mesg:	 --patch success \char\texture\B2D01S71.dds 	zip:1 	crc:1337449438 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2D14H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2D14H02.dds :1Mesg:	 --patch success \char\texture\B2D14H02.dds 	zip:1 	crc:589232447 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S21.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S21.dds :1Mesg:	 --patch success \char\texture\B2G04S21.dds 	zip:1 	crc:3200459273 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S35.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S35.dds :1Mesg:	 --patch success \char\texture\B2G04S35.dds 	zip:1 	crc:3695354346 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S36.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S36.dds :1Mesg:	 --patch success \char\texture\B2G04S36.dds 	zip:1 	crc:4057234213 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S37.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S37.dds :1Mesg:	 --patch success \char\texture\B2G04S37.dds 	zip:1 	crc:3778375214 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S42.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S42.dds :1Mesg:	 --patch success \char\texture\B2G04S42.dds 	zip:1 	crc:185325113 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S46.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S46.dds :1Mesg:	 --patch success \char\texture\B2G04S46.dds 	zip:1 	crc:4166534020 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G52H03.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G52H03.dds :1Mesg:	 --patch success \char\texture\B2G52H03.dds 	zip:1 	crc:982787227 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G53H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G53H02.dds :1Mesg:	 --patch success \char\texture\B2G53H02.dds 	zip:1 	crc:2991452151 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G63H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G63H02.dds :1Mesg:	 --patch success \char\texture\B2G63H02.dds 	zip:1 	crc:971606366 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G66H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G66H02.dds :1Mesg:	 --patch success \char\texture\B2G66H02.dds 	zip:1 	crc:2377346169 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G79H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G79H01.dds :1Mesg:	 --patch success \char\texture\B2G79H01.dds 	zip:1 	crc:239466892 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G80H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2G80H01.dds :1Mesg:	 --patch success \char\texture\B2G80H01.dds 	zip:1 	crc:2972596339 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2I01S31.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2I01S31.dds :1Mesg:	 --patch success \char\texture\B2I01S31.dds 	zip:1 	crc:1100932830 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2I01S32.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2I01S32.dds :1Mesg:	 --patch success \char\texture\B2I01S32.dds 	zip:1 	crc:386289989 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2I11H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B2I11H01.dds :1Mesg:	 --patch success \char\texture\B2I11H01.dds 	zip:1 	crc:3732353616 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A06S97.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B3A06S97.dds :1Mesg:	 --patch success \char\texture\B3A06S97.dds 	zip:1 	crc:1316586914 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A06S98.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B3A06S98.dds :1Mesg:	 --patch success \char\texture\B3A06S98.dds 	zip:1 	crc:2812046809 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A07S01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B3A07S01.dds :1Mesg:	 --patch success \char\texture\B3A07S01.dds 	zip:1 	crc:2996434768 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A56H02.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B3A56H02.dds :1Mesg:	 --patch success \char\texture\B3A56H02.dds 	zip:1 	crc:623245307 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A61H01.dds.bz2?202301031435
+Mesg:	 --Add Remove File To Pack char\texture\B3A61H01.dds :1Mesg:	 --patch success \char\texture\B3A61H01.dds 	zip:1 	crc:3732353616 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3C02S91.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3C02S91.dds :1Mesg:	 --patch success \char\texture\B3C02S91.dds 	zip:1 	crc:3073128087 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3C30H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3C30H02.dds :1Mesg:	 --patch success \char\texture\B3C30H02.dds 	zip:1 	crc:3028497932 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3D02S35.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3D02S35.dds :1Mesg:	 --patch success \char\texture\B3D02S35.dds 	zip:1 	crc:2239388072 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3D02S44.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3D02S44.dds :1Mesg:	 --patch success \char\texture\B3D02S44.dds 	zip:1 	crc:2038563217 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3D02S46.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3D02S46.dds :1Mesg:	 --patch success \char\texture\B3D02S46.dds 	zip:1 	crc:4190772797 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3D02S48.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3D02S48.dds :1Mesg:	 --patch success \char\texture\B3D02S48.dds 	zip:1 	crc:1982300575 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3D11H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3D11H02.dds :1Mesg:	 --patch success \char\texture\B3D11H02.dds 	zip:1 	crc:2192512450 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3D24H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B3D24H01.dds :1Mesg:	 --patch success \char\texture\B3D24H01.dds 	zip:1 	crc:170840669 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A04S02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A04S02.dds :1Mesg:	 --patch success \char\texture\B4A04S02.dds 	zip:1 	crc:2152073173 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A04S03.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A04S03.dds :1Mesg:	 --patch success \char\texture\B4A04S03.dds 	zip:1 	crc:2577812489 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A04S20.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A04S20.dds :1Mesg:	 --patch success \char\texture\B4A04S20.dds 	zip:1 	crc:159783471 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A04S24.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A04S24.dds :1Mesg:	 --patch success \char\texture\B4A04S24.dds 	zip:1 	crc:1425778297 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A04S27.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A04S27.dds :1Mesg:	 --patch success \char\texture\B4A04S27.dds 	zip:1 	crc:3697689209 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A04S28.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A04S28.dds :1Mesg:	 --patch success \char\texture\B4A04S28.dds 	zip:1 	crc:3820518833 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A34H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A34H02.dds :1Mesg:	 --patch success \char\texture\B4A34H02.dds 	zip:1 	crc:2032969221 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4A40H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B4A40H01.dds :1Mesg:	 --patch success \char\texture\B4A40H01.dds 	zip:1 	crc:3012045863 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5A03H01.dds :1Mesg:	 --patch success \char\texture\B5A03H01.dds 	zip:1 	crc:413241529 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03S11.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5A03S11.dds :1Mesg:	 --patch success \char\texture\B5A03S11.dds 	zip:1 	crc:1453557626 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03S20.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5A03S20.dds :1Mesg:	 --patch success \char\texture\B5A03S20.dds 	zip:1 	crc:2781566313 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03S23.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5A03S23.dds :1Mesg:	 --patch success \char\texture\B5A03S23.dds 	zip:1 	crc:3299207951 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03S25.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5A03S25.dds :1Mesg:	 --patch success \char\texture\B5A03S25.dds 	zip:1 	crc:3075434762 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03S27.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5A03S27.dds :1Mesg:	 --patch success \char\texture\B5A03S27.dds 	zip:1 	crc:2058222441 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5F04H16.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5F04H16.dds :1Mesg:	 --patch success \char\texture\B5F04H16.dds 	zip:1 	crc:2990475140 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5F04S40.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5F04S40.dds :1Mesg:	 --patch success \char\texture\B5F04S40.dds 	zip:1 	crc:292520053 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5F04S42.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5F04S42.dds :1Mesg:	 --patch success \char\texture\B5F04S42.dds 	zip:1 	crc:1159528243 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5F04S43.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5F04S43.dds :1Mesg:	 --patch success \char\texture\B5F04S43.dds 	zip:1 	crc:832746784 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5F04S45.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5F04S45.dds :1Mesg:	 --patch success \char\texture\B5F04S45.dds 	zip:1 	crc:35658514 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5G01H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5G01H02.dds :1Mesg:	 --patch success \char\texture\B5G01H02.dds 	zip:1 	crc:1727664753 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5G01S26.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\B5G01S26.dds :1Mesg:	 --patch success \char\texture\B5G01S26.dds 	zip:1 	crc:3006151256 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1251H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1251H01.dds :1Mesg:	 --patch success \char\texture\G1251H01.dds 	zip:1 	crc:3261012430 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1251H51.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1251H51.dds :1Mesg:	 --patch success \char\texture\G1251H51.dds 	zip:1 	crc:3222905056 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1252H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1252H01.dds :1Mesg:	 --patch success \char\texture\G1252H01.dds 	zip:1 	crc:1395524175 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1587H03.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1587H03.dds :1Mesg:	 --patch success \char\texture\G1587H03.dds 	zip:1 	crc:3993358453 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1592H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1592H02.dds :1Mesg:	 --patch success \char\texture\G1592H02.dds 	zip:1 	crc:2776165957 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1698H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1698H02.dds :1Mesg:	 --patch success \char\texture\G1698H02.dds 	zip:1 	crc:3495285438 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1718H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1718H01.dds :1Mesg:	 --patch success \char\texture\G1718H01.dds 	zip:1 	crc:1925056553 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1771H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1771H02.dds :1Mesg:	 --patch success \char\texture\G1771H02.dds 	zip:1 	crc:3137542498 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1773H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1773H02.dds :1Mesg:	 --patch success \char\texture\G1773H02.dds 	zip:1 	crc:3168002596 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1780H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1780H02.dds :1Mesg:	 --patch success \char\texture\G1780H02.dds 	zip:1 	crc:1860521678 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1887H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1887H01.dds :1Mesg:	 --patch success \char\texture\G1887H01.dds 	zip:1 	crc:606657792 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1888H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1888H01.dds :1Mesg:	 --patch success \char\texture\G1888H01.dds 	zip:1 	crc:1600320107 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1889H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1889H01.dds :1Mesg:	 --patch success \char\texture\G1889H01.dds 	zip:1 	crc:3665153293 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1890H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G1890H01.dds :1Mesg:	 --patch success \char\texture\G1890H01.dds 	zip:1 	crc:2667889710 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2A05S16.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2A05S16.dds :1Mesg:	 --patch success \char\texture\G2A05S16.dds 	zip:1 	crc:3730994208 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2A05S61.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2A05S61.dds :1Mesg:	 --patch success \char\texture\G2A05S61.dds 	zip:1 	crc:3502845205 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2A95H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2A95H02.dds :1Mesg:	 --patch success \char\texture\G2A95H02.dds 	zip:1 	crc:1090427702 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2AA4H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2AA4H02.dds :1Mesg:	 --patch success \char\texture\G2AA4H02.dds 	zip:1 	crc:66541196 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2E01S60.DDS.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2E01S60.DDS :1Mesg:	 --patch success \char\texture\G2E01S60.DDS 	zip:1 	crc:1318662595 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2E16H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2E16H02.dds :1Mesg:	 --patch success \char\texture\G2E16H02.dds 	zip:1 	crc:585096592 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S75.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S75.dds :1Mesg:	 --patch success \char\texture\G2I01S75.dds 	zip:1 	crc:2621838515 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S78.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S78.dds :1Mesg:	 --patch success \char\texture\G2I01S78.dds 	zip:1 	crc:1296678149 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S82.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S82.dds :1Mesg:	 --patch success \char\texture\G2I01S82.dds 	zip:1 	crc:2782081227 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S83.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S83.dds :1Mesg:	 --patch success \char\texture\G2I01S83.dds 	zip:1 	crc:2942617492 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S85.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S85.dds :1Mesg:	 --patch success \char\texture\G2I01S85.dds 	zip:1 	crc:3092324907 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S86.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S86.dds :1Mesg:	 --patch success \char\texture\G2I01S86.dds 	zip:1 	crc:3571964792 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I18H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I18H02.dds :1Mesg:	 --patch success \char\texture\G2I18H02.dds 	zip:1 	crc:3573858045 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I27H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I27H01.dds :1Mesg:	 --patch success \char\texture\G2I27H01.dds 	zip:1 	crc:2092751366 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I28H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I28H01.dds :1Mesg:	 --patch success \char\texture\G2I28H01.dds 	zip:1 	crc:1125958500 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I29H01.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2I29H01.dds :1Mesg:	 --patch success \char\texture\G2I29H01.dds 	zip:1 	crc:2350590250 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2N01S56.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2N01S56.dds :1Mesg:	 --patch success \char\texture\G2N01S56.dds 	zip:1 	crc:4194496845 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2N12H02.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G2N12H02.dds :1Mesg:	 --patch success \char\texture\G2N12H02.dds 	zip:1 	crc:3828657950 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A05S41.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G3A05S41.dds :1Mesg:	 --patch success \char\texture\G3A05S41.dds 	zip:1 	crc:176604279 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A05S45.dds.bz2?202301031436
+Mesg:	 --Add Remove File To Pack char\texture\G3A05S45.dds :1Mesg:	 --patch success \char\texture\G3A05S45.dds 	zip:1 	crc:2052710566 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A05S46.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A05S46.dds :1Mesg:	 --patch success \char\texture\G3A05S46.dds 	zip:1 	crc:1429827649 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A63H02.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A63H02.dds :1Mesg:	 --patch success \char\texture\G3A63H02.dds 	zip:1 	crc:2052465005 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A65H02.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A65H02.dds :1Mesg:	 --patch success \char\texture\G3A65H02.dds 	zip:1 	crc:1409655408 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A67H02.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A67H02.dds :1Mesg:	 --patch success \char\texture\G3A67H02.dds 	zip:1 	crc:4258845939 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A80H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A80H01.dds :1Mesg:	 --patch success \char\texture\G3A80H01.dds 	zip:1 	crc:4268092327 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A81H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A81H01.dds :1Mesg:	 --patch success \char\texture\G3A81H01.dds 	zip:1 	crc:2320565107 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A82H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A82H01.dds :1Mesg:	 --patch success \char\texture\G3A82H01.dds 	zip:1 	crc:1806145495 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3A83H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3A83H01.dds :1Mesg:	 --patch success \char\texture\G3A83H01.dds 	zip:1 	crc:829390211 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3E01S82.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3E01S82.dds :1Mesg:	 --patch success \char\texture\G3E01S82.dds 	zip:1 	crc:2521387618 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3E17H02.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G3E17H02.dds :1Mesg:	 --patch success \char\texture\G3E17H02.dds 	zip:1 	crc:4128337480 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A03S92.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A03S92.dds :1Mesg:	 --patch success \char\texture\G4A03S92.dds 	zip:1 	crc:1725951222 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A04S07.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A04S07.dds :1Mesg:	 --patch success \char\texture\G4A04S07.dds 	zip:1 	crc:3508993965 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A04S26.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A04S26.dds :1Mesg:	 --patch success \char\texture\G4A04S26.dds 	zip:1 	crc:1381006222 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A04S27.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A04S27.dds :1Mesg:	 --patch success \char\texture\G4A04S27.dds 	zip:1 	crc:3462914453 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A04S30.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A04S30.dds :1Mesg:	 --patch success \char\texture\G4A04S30.dds 	zip:1 	crc:3851606452 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A13H18.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A13H18.dds :1Mesg:	 --patch success \char\texture\G4A13H18.dds 	zip:1 	crc:2334879607 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A17H16.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A17H16.dds :1Mesg:	 --patch success \char\texture\G4A17H16.dds 	zip:1 	crc:3265896850 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A17H17.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A17H17.dds :1Mesg:	 --patch success \char\texture\G4A17H17.dds 	zip:1 	crc:165522261 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A37H08.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G4A37H08.dds :1Mesg:	 --patch success \char\texture\G4A37H08.dds 	zip:1 	crc:1743886865 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5A02S85.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5A02S85.dds :1Mesg:	 --patch success \char\texture\G5A02S85.dds 	zip:1 	crc:3167955606 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5A02S90.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5A02S90.dds :1Mesg:	 --patch success \char\texture\G5A02S90.dds 	zip:1 	crc:495885316 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5A02S91.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5A02S91.dds :1Mesg:	 --patch success \char\texture\G5A02S91.dds 	zip:1 	crc:1111979639 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5A02S92.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5A02S92.dds :1Mesg:	 --patch success \char\texture\G5A02S92.dds 	zip:1 	crc:3184076427 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5A04H02.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5A04H02.dds :1Mesg:	 --patch success \char\texture\G5A04H02.dds 	zip:1 	crc:642060620 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F05S78.DDS.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F05S78.DDS :1Mesg:	 --patch success \char\texture\G5F05S78.DDS 	zip:1 	crc:2360818218 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F05S95.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F05S95.dds :1Mesg:	 --patch success \char\texture\G5F05S95.dds 	zip:1 	crc:131941394 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F06S02.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F06S02.dds :1Mesg:	 --patch success \char\texture\G5F06S02.dds 	zip:1 	crc:3354289912 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F06S08.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F06S08.dds :1Mesg:	 --patch success \char\texture\G5F06S08.dds 	zip:1 	crc:2963884847 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F06S09.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F06S09.dds :1Mesg:	 --patch success \char\texture\G5F06S09.dds 	zip:1 	crc:2503299495 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F06S11.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F06S11.dds :1Mesg:	 --patch success \char\texture\G5F06S11.dds 	zip:1 	crc:3313173506 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F10H17.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\G5F10H17.dds :1Mesg:	 --patch success \char\texture\G5F10H17.dds 	zip:1 	crc:2915101579 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A1UH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A1UH01.dds :1Mesg:	 --patch success \char\texture\X6A1UH01.dds 	zip:1 	crc:4133099949 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2DH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2DH01.dds :1Mesg:	 --patch success \char\texture\X6A2DH01.dds 	zip:1 	crc:2182748105 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2DH51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2DH51.dds :1Mesg:	 --patch success \char\texture\X6A2DH51.dds 	zip:1 	crc:889331921 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2DH52.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2DH52.dds :1Mesg:	 --patch success \char\texture\X6A2DH52.dds 	zip:1 	crc:1952575209 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2DH53.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2DH53.dds :1Mesg:	 --patch success \char\texture\X6A2DH53.dds 	zip:1 	crc:2064911004 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2DH54.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2DH54.dds :1Mesg:	 --patch success \char\texture\X6A2DH54.dds 	zip:1 	crc:4064356880 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2EH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2EH01.dds :1Mesg:	 --patch success \char\texture\X6A2EH01.dds 	zip:1 	crc:2007070855 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2FH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2FH01.dds :1Mesg:	 --patch success \char\texture\X6A2FH01.dds 	zip:1 	crc:2605837698 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2FH51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2FH51.dds :1Mesg:	 --patch success \char\texture\X6A2FH51.dds 	zip:1 	crc:2940613272 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2GH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2GH01.dds :1Mesg:	 --patch success \char\texture\X6A2GH01.dds 	zip:1 	crc:1836183760 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2GH51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2GH51.dds :1Mesg:	 --patch success \char\texture\X6A2GH51.dds 	zip:1 	crc:1508311065 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2GH52.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2GH52.dds :1Mesg:	 --patch success \char\texture\X6A2GH52.dds 	zip:1 	crc:4235769990 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2HH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2HH01.dds :1Mesg:	 --patch success \char\texture\X6A2HH01.dds 	zip:1 	crc:489489689 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2HH51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2HH51.dds :1Mesg:	 --patch success \char\texture\X6A2HH51.dds 	zip:1 	crc:2325722489 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2IH01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2IH01.dds :1Mesg:	 --patch success \char\texture\X6A2IH01.dds 	zip:1 	crc:2625400241 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2IH51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2IH51.dds :1Mesg:	 --patch success \char\texture\X6A2IH51.dds 	zip:1 	crc:3884518056 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2IH52.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6A2IH52.dds :1Mesg:	 --patch success \char\texture\X6A2IH52.dds 	zip:1 	crc:3659493495 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AD5H58.DDS.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AD5H58.DDS :1Mesg:	 --patch success \char\texture\X6AD5H58.DDS 	zip:1 	crc:2946401159 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AK4H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AK4H01.dds :1Mesg:	 --patch success \char\texture\X6AK4H01.dds 	zip:1 	crc:2273061259 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AK4H51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AK4H51.dds :1Mesg:	 --patch success \char\texture\X6AK4H51.dds 	zip:1 	crc:1298175555 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AK5H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AK5H01.dds :1Mesg:	 --patch success \char\texture\X6AK5H01.dds 	zip:1 	crc:561477322 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AK5H51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AK5H51.dds :1Mesg:	 --patch success \char\texture\X6AK5H51.dds 	zip:1 	crc:2173673550 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AK6H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AK6H01.dds :1Mesg:	 --patch success \char\texture\X6AK6H01.dds 	zip:1 	crc:2418674142 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AY7H01.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AY7H01.dds :1Mesg:	 --patch success \char\texture\X6AY7H01.dds 	zip:1 	crc:2578854205 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AY7H51.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AY7H51.dds :1Mesg:	 --patch success \char\texture\X6AY7H51.dds 	zip:1 	crc:1780535277 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AY7H52.dds.bz2?202301031437
+Mesg:	 --Add Remove File To Pack char\texture\X6AY7H52.dds :1Mesg:	 --patch success \char\texture\X6AY7H52.dds 	zip:1 	crc:2749528443 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Achievement.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Achievement.ini :1Mesg:	 --patch success \data\db\C_Achievement.ini 	zip:1 	crc:736348245 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Activity.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Activity.ini :1Mesg:	 --patch success \data\db\C_Activity.ini 	zip:1 	crc:2414149628 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Ai.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Ai.ini :1Mesg:	 --patch success \data\db\C_Ai.ini 	zip:1 	crc:864267232 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Collection.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Collection.ini :1Mesg:	 --patch success \data\db\C_Collection.ini 	zip:1 	crc:3119778104 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_DailyAwards.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_DailyAwards.ini :1Mesg:	 --patch success \data\db\C_DailyAwards.ini 	zip:1 	crc:3185727927 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Dialogue.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Dialogue.ini :1Mesg:	 --patch success \data\db\C_Dialogue.ini 	zip:1 	crc:4248802212 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_DropItem.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_DropItem.ini :1Mesg:	 --patch success \data\db\C_DropItem.ini 	zip:1 	crc:1278439447 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_DynamicEvent.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_DynamicEvent.ini :1Mesg:	 --patch success \data\db\C_DynamicEvent.ini 	zip:1 	crc:811230329 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_ElfCombine.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_ElfCombine.ini :1Mesg:	 --patch success \data\db\C_ElfCombine.ini 	zip:1 	crc:1715371047 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_ElfTeamFight.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_ElfTeamFight.ini :1Mesg:	 --patch success \data\db\C_ElfTeamFight.ini 	zip:1 	crc:497087698 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Enchant.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Enchant.ini :1Mesg:	 --patch success \data\db\C_Enchant.ini 	zip:1 	crc:1410384424 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_EquipSet.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_EquipSet.ini :1Mesg:	 --patch success \data\db\C_EquipSet.ini 	zip:1 	crc:3776617667 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Festival.ini.bz2?202301031437
+Mesg:	 --Add Remove File To Pack data\db\C_Festival.ini :1Mesg:	 --patch success \data\db\C_Festival.ini 	zip:1 	crc:573611025 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Item.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Item.ini :1Mesg:	 --patch success \data\db\C_Item.ini 	zip:1 	crc:303225275 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_ItemExchange.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_ItemExchange.ini :1Mesg:	 --patch success \data\db\C_ItemExchange.ini 	zip:1 	crc:3134019900 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_ItemMall.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_ItemMall.ini :1Mesg:	 --patch success \data\db\C_ItemMall.ini 	zip:1 	crc:1062424086 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Mission.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Mission.ini :1Mesg:	 --patch success \data\db\C_Mission.ini 	zip:1 	crc:243681684 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Monster.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Monster.ini :1Mesg:	 --patch success \data\db\C_Monster.ini 	zip:1 	crc:643191388 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Node.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Node.ini :1Mesg:	 --patch success \data\db\C_Node.ini 	zip:1 	crc:1658337066 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Npc.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Npc.ini :1Mesg:	 --patch success \data\db\C_Npc.ini 	zip:1 	crc:203099295 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Parameter.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Parameter.ini :1Mesg:	 --patch success \data\db\C_Parameter.ini 	zip:1 	crc:2616555359 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_RankAward.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_RankAward.ini :1Mesg:	 --patch success \data\db\C_RankAward.ini 	zip:1 	crc:1088218643 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_RideStep.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_RideStep.ini :1Mesg:	 --patch success \data\db\C_RideStep.ini 	zip:1 	crc:3217544397 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Schedule.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Schedule.ini :1Mesg:	 --patch success \data\db\C_Schedule.ini 	zip:1 	crc:4070869616 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Spell.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Spell.ini :1Mesg:	 --patch success \data\db\C_Spell.ini 	zip:1 	crc:643241242 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_StarAvenue.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_StarAvenue.ini :1Mesg:	 --patch success \data\db\C_StarAvenue.ini 	zip:1 	crc:1729050108 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Store.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Store.ini :1Mesg:	 --patch success \data\db\C_Store.ini 	zip:1 	crc:3765451839 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_SysSetup.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_SysSetup.ini :1Mesg:	 --patch success \data\db\C_SysSetup.ini 	zip:1 	crc:49762136 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_TextIndex.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_TextIndex.ini :1Mesg:	 --patch success \data\db\C_TextIndex.ini 	zip:1 	crc:172330397 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Title.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\C_Title.ini :1Mesg:	 --patch success \data\db\C_Title.ini 	zip:1 	crc:3921864580 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/ChairList.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\ChairList.ini :1Mesg:	 --patch success \data\db\ChairList.ini 	zip:1 	crc:3326427806 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Effect.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\Effect.ini :1Mesg:	 --patch success \data\db\Effect.ini 	zip:1 	crc:929768796 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/ElfEquip.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\ElfEquip.ini :1Mesg:	 --patch success \data\db\ElfEquip.ini 	zip:1 	crc:3385563127 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Equip.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\Equip.ini :1Mesg:	 --patch success \data\db\Equip.ini 	zip:1 	crc:1365815290 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Motion.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\Motion.ini :1Mesg:	 --patch success \data\db\Motion.ini 	zip:1 	crc:113474358 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/RideList.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\RideList.ini :1Mesg:	 --patch success \data\db\RideList.ini 	zip:1 	crc:792980112 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/SuitEquip.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\SuitEquip.ini :1Mesg:	 --patch success \data\db\SuitEquip.ini 	zip:1 	crc:1935435774 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Weapon.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\Weapon.ini :1Mesg:	 --patch success \data\db\Weapon.ini 	zip:1 	crc:4100850201 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/lic1.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\db\lic1.ini :1Mesg:	 --patch success \data\db\lic1.ini 	zip:1 	crc:1720265063 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S002.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S002.ini :1Mesg:	 --patch success \data\scene\S002.ini 	zip:1 	crc:4094625844 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S003.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S003.ini :1Mesg:	 --patch success \data\scene\S003.ini 	zip:1 	crc:2270748647 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S004.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S004.ini :1Mesg:	 --patch success \data\scene\S004.ini 	zip:1 	crc:4280752930 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S005.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S005.ini :1Mesg:	 --patch success \data\scene\S005.ini 	zip:1 	crc:721473574 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S006.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S006.ini :1Mesg:	 --patch success \data\scene\S006.ini 	zip:1 	crc:3369231901 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S007.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S007.ini :1Mesg:	 --patch success \data\scene\S007.ini 	zip:1 	crc:3957383352 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S008.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S008.ini :1Mesg:	 --patch success \data\scene\S008.ini 	zip:1 	crc:975088245 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S009.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S009.ini :1Mesg:	 --patch success \data\scene\S009.ini 	zip:1 	crc:3045030538 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S010.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S010.ini :1Mesg:	 --patch success \data\scene\S010.ini 	zip:1 	crc:522659018 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S011.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S011.ini :1Mesg:	 --patch success \data\scene\S011.ini 	zip:1 	crc:3711399083 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S012.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S012.ini :1Mesg:	 --patch success \data\scene\S012.ini 	zip:1 	crc:3556324610 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S013.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S013.ini :1Mesg:	 --patch success \data\scene\S013.ini 	zip:1 	crc:236910268 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S014.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S014.ini :1Mesg:	 --patch success \data\scene\S014.ini 	zip:1 	crc:3418593733 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S015.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S015.ini :1Mesg:	 --patch success \data\scene\S015.ini 	zip:1 	crc:3584688596 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S017.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S017.ini :1Mesg:	 --patch success \data\scene\S017.ini 	zip:1 	crc:3787216107 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S019.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S019.ini :1Mesg:	 --patch success \data\scene\S019.ini 	zip:1 	crc:2380792514 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S020.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S020.ini :1Mesg:	 --patch success \data\scene\S020.ini 	zip:1 	crc:3168446090 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S026.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S026.ini :1Mesg:	 --patch success \data\scene\S026.ini 	zip:1 	crc:2093454005 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S030.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S030.ini :1Mesg:	 --patch success \data\scene\S030.ini 	zip:1 	crc:2983324276 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S031.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S031.ini :1Mesg:	 --patch success \data\scene\S031.ini 	zip:1 	crc:11453763 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S032.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S032.ini :1Mesg:	 --patch success \data\scene\S032.ini 	zip:1 	crc:498717965 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S033.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S033.ini :1Mesg:	 --patch success \data\scene\S033.ini 	zip:1 	crc:2860163525 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S034.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S034.ini :1Mesg:	 --patch success \data\scene\S034.ini 	zip:1 	crc:2946652697 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S035.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S035.ini :1Mesg:	 --patch success \data\scene\S035.ini 	zip:1 	crc:4051966324 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S043.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S043.ini :1Mesg:	 --patch success \data\scene\S043.ini 	zip:1 	crc:2882232691 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S047.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S047.ini :1Mesg:	 --patch success \data\scene\S047.ini 	zip:1 	crc:1863415110 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S100.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S100.ini :1Mesg:	 --patch success \data\scene\S100.ini 	zip:1 	crc:800866748 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S101.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S101.ini :1Mesg:	 --patch success \data\scene\S101.ini 	zip:1 	crc:2036871254 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S102.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S102.ini :1Mesg:	 --patch success \data\scene\S102.ini 	zip:1 	crc:3047197458 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S246.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S246.ini :1Mesg:	 --patch success \data\scene\S246.ini 	zip:1 	crc:3186565873 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S320.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S320.ini :1Mesg:	 --patch success \data\scene\S320.ini 	zip:1 	crc:438104247 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S741.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S741.ini :1Mesg:	 --patch success \data\scene\S741.ini 	zip:1 	crc:343113003 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S870.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S870.ini :1Mesg:	 --patch success \data\scene\S870.ini 	zip:1 	crc:2978708354 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S871.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S871.ini :1Mesg:	 --patch success \data\scene\S871.ini 	zip:1 	crc:1778385154 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S872.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S872.ini :1Mesg:	 --patch success \data\scene\S872.ini 	zip:1 	crc:3753184470 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S873.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S873.ini :1Mesg:	 --patch success \data\scene\S873.ini 	zip:1 	crc:2917895489 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S874.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S874.ini :1Mesg:	 --patch success \data\scene\S874.ini 	zip:1 	crc:3117416058 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S875.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S875.ini :1Mesg:	 --patch success \data\scene\S875.ini 	zip:1 	crc:651846005 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S876.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S876.ini :1Mesg:	 --patch success \data\scene\S876.ini 	zip:1 	crc:2904208742 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S877.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S877.ini :1Mesg:	 --patch success \data\scene\S877.ini 	zip:1 	crc:2662268912 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S878.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S878.ini :1Mesg:	 --patch success \data\scene\S878.ini 	zip:1 	crc:4046652413 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S879.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S879.ini :1Mesg:	 --patch success \data\scene\S879.ini 	zip:1 	crc:2679399121 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S880.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S880.ini :1Mesg:	 --patch success \data\scene\S880.ini 	zip:1 	crc:1321698502 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S881.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S881.ini :1Mesg:	 --patch success \data\scene\S881.ini 	zip:1 	crc:647328573 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S913.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S913.ini :1Mesg:	 --patch success \data\scene\S913.ini 	zip:1 	crc:4024562353 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S919.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S919.ini :1Mesg:	 --patch success \data\scene\S919.ini 	zip:1 	crc:715762331 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S920.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S920.ini :1Mesg:	 --patch success \data\scene\S920.ini 	zip:1 	crc:729083377 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S991.ini.bz2?202301031438
+Mesg:	 --Add Remove File To Pack data\scene\S991.ini :1Mesg:	 --patch success \data\scene\S991.ini 	zip:1 	crc:531022024 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94031.nif.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\model\S94031.nif :1Mesg:	 --patch success \effect\model\S94031.nif 	zip:1 	crc:1649948837 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94041.nif.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\model\S94041.nif :1Mesg:	 --patch success \effect\model\S94041.nif 	zip:1 	crc:855450416 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94051.nif.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\model\S94051.nif :1Mesg:	 --patch success \effect\model\S94051.nif 	zip:1 	crc:2065818722 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94061.nif.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\model\S94061.nif :1Mesg:	 --patch success \effect\model\S94061.nif 	zip:1 	crc:587946520 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94071.nif.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\model\S94071.nif :1Mesg:	 --patch success \effect\model\S94071.nif 	zip:1 	crc:473677 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94131.nif.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\model\S94131.nif :1Mesg:	 --patch success \effect\model\S94131.nif 	zip:1 	crc:3208691814 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403101.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403101.dds :1Mesg:	 --patch success \effect\texture\S9403101.dds 	zip:1 	crc:58694204 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403102.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403102.dds :1Mesg:	 --patch success \effect\texture\S9403102.dds 	zip:1 	crc:1832309350 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403103.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403103.dds :1Mesg:	 --patch success \effect\texture\S9403103.dds 	zip:1 	crc:3059633374 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403104.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403104.dds :1Mesg:	 --patch success \effect\texture\S9403104.dds 	zip:1 	crc:635885717 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403105.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403105.dds :1Mesg:	 --patch success \effect\texture\S9403105.dds 	zip:1 	crc:982952703 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403106.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403106.dds :1Mesg:	 --patch success \effect\texture\S9403106.dds 	zip:1 	crc:4050127322 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403107.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403107.dds :1Mesg:	 --patch success \effect\texture\S9403107.dds 	zip:1 	crc:265363396 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403108.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403108.dds :1Mesg:	 --patch success \effect\texture\S9403108.dds 	zip:1 	crc:1505630750 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9403109.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9403109.dds :1Mesg:	 --patch success \effect\texture\S9403109.dds 	zip:1 	crc:9509043 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404101.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404101.dds :1Mesg:	 --patch success \effect\texture\S9404101.dds 	zip:1 	crc:2245606253 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404102.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404102.dds :1Mesg:	 --patch success \effect\texture\S9404102.dds 	zip:1 	crc:558219844 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404103.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404103.dds :1Mesg:	 --patch success \effect\texture\S9404103.dds 	zip:1 	crc:1409983518 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404104.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404104.dds :1Mesg:	 --patch success \effect\texture\S9404104.dds 	zip:1 	crc:27316675 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404105.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404105.dds :1Mesg:	 --patch success \effect\texture\S9404105.dds 	zip:1 	crc:1384921626 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404106.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404106.dds :1Mesg:	 --patch success \effect\texture\S9404106.dds 	zip:1 	crc:1054495961 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404107.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404107.dds :1Mesg:	 --patch success \effect\texture\S9404107.dds 	zip:1 	crc:1627307245 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9404108.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9404108.dds :1Mesg:	 --patch success \effect\texture\S9404108.dds 	zip:1 	crc:2901666349 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405101.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405101.dds :1Mesg:	 --patch success \effect\texture\S9405101.dds 	zip:1 	crc:2262672629 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405102.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405102.dds :1Mesg:	 --patch success \effect\texture\S9405102.dds 	zip:1 	crc:1619016599 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405103.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405103.dds :1Mesg:	 --patch success \effect\texture\S9405103.dds 	zip:1 	crc:2669308909 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405104.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405104.dds :1Mesg:	 --patch success \effect\texture\S9405104.dds 	zip:1 	crc:1040675054 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405105.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405105.dds :1Mesg:	 --patch success \effect\texture\S9405105.dds 	zip:1 	crc:1596701166 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405106.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405106.dds :1Mesg:	 --patch success \effect\texture\S9405106.dds 	zip:1 	crc:1938676945 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405107.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405107.dds :1Mesg:	 --patch success \effect\texture\S9405107.dds 	zip:1 	crc:109887946 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9405108.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9405108.dds :1Mesg:	 --patch success \effect\texture\S9405108.dds 	zip:1 	crc:38199341 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406101.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9406101.dds :1Mesg:	 --patch success \effect\texture\S9406101.dds 	zip:1 	crc:264913161 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406102.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9406102.dds :1Mesg:	 --patch success \effect\texture\S9406102.dds 	zip:1 	crc:2731694866 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406103.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9406103.dds :1Mesg:	 --patch success \effect\texture\S9406103.dds 	zip:1 	crc:1402680711 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406104.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9406104.dds :1Mesg:	 --patch success \effect\texture\S9406104.dds 	zip:1 	crc:2270044778 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406105.dds.bz2?202301031438
+Mesg:	 --Add Remove File To Pack effect\texture\S9406105.dds :1Mesg:	 --patch success \effect\texture\S9406105.dds 	zip:1 	crc:3870931475 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406106.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9406106.dds :1Mesg:	 --patch success \effect\texture\S9406106.dds 	zip:1 	crc:3057693114 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406107.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9406107.dds :1Mesg:	 --patch success \effect\texture\S9406107.dds 	zip:1 	crc:4058252272 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9406108.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9406108.dds :1Mesg:	 --patch success \effect\texture\S9406108.dds 	zip:1 	crc:3096488796 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407101.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407101.dds :1Mesg:	 --patch success \effect\texture\S9407101.dds 	zip:1 	crc:3146330721 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407102.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407102.dds :1Mesg:	 --patch success \effect\texture\S9407102.dds 	zip:1 	crc:2617566792 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407103.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407103.dds :1Mesg:	 --patch success \effect\texture\S9407103.dds 	zip:1 	crc:2172946700 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407104.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407104.dds :1Mesg:	 --patch success \effect\texture\S9407104.dds 	zip:1 	crc:419752795 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407105.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407105.dds :1Mesg:	 --patch success \effect\texture\S9407105.dds 	zip:1 	crc:35848364 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407106.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407106.dds :1Mesg:	 --patch success \effect\texture\S9407106.dds 	zip:1 	crc:3301333998 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9407107.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9407107.dds :1Mesg:	 --patch success \effect\texture\S9407107.dds 	zip:1 	crc:1352940889 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9413101.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack effect\texture\S9413101.dds :1Mesg:	 --patch success \effect\texture\S9413101.dds 	zip:1 	crc:174860484 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/elf/model/X1017.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack elf\model\X1017.nif :1Mesg:	 --patch success \elf\model\X1017.nif 	zip:1 	crc:4012222374 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/elf/texture/X1017H01.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack elf\texture\X1017H01.dds :1Mesg:	 --patch success \elf\texture\X1017H01.dds 	zip:1 	crc:173484378 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/elf/texture/X2A02S78.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack elf\texture\X2A02S78.dds :1Mesg:	 --patch success \elf\texture\X2A02S78.dds 	zip:1 	crc:2700424718 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/W454.kfm.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\W454.kfm :1Mesg:	 --patch success \item\W454.kfm 	zip:1 	crc:103891957 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/WG23.kfm.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\WG23.kfm :1Mesg:	 --patch success \item\WG23.kfm 	zip:1 	crc:3059684679 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/animation/W454.kf.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\animation\W454.kf :1Mesg:	 --patch success \item\animation\W454.kf 	zip:1 	crc:3379911216 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/animation/WG23.kf.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\animation\WG23.kf :1Mesg:	 --patch success \item\animation\WG23.kf 	zip:1 	crc:1360012508 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W361.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W361.nif :1Mesg:	 --patch success \item\model\W361.nif 	zip:1 	crc:1740901901 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W363.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W363.nif :1Mesg:	 --patch success \item\model\W363.nif 	zip:1 	crc:550833637 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W364.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W364.nif :1Mesg:	 --patch success \item\model\W364.nif 	zip:1 	crc:2594269496 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W453.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W453.nif :1Mesg:	 --patch success \item\model\W453.nif 	zip:1 	crc:977406745 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W454.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W454.nif :1Mesg:	 --patch success \item\model\W454.nif 	zip:1 	crc:1080810100 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W458.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W458.nif :1Mesg:	 --patch success \item\model\W458.nif 	zip:1 	crc:3942971969 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W694.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\W694.nif :1Mesg:	 --patch success \item\model\W694.nif 	zip:1 	crc:2743433149 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/WF93.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\WF93.nif :1Mesg:	 --patch success \item\model\WF93.nif 	zip:1 	crc:3055226662 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/WG22.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\WG22.nif :1Mesg:	 --patch success \item\model\WG22.nif 	zip:1 	crc:2418327619 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/WG23.nif.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\model\WG23.nif :1Mesg:	 --patch success \item\model\WG23.nif 	zip:1 	crc:1749659225 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36101.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36101.dds :1Mesg:	 --patch success \item\texture\W36101.dds 	zip:1 	crc:3687583086 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36151.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36151.dds :1Mesg:	 --patch success \item\texture\W36151.dds 	zip:1 	crc:365823192 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36152.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36152.dds :1Mesg:	 --patch success \item\texture\W36152.dds 	zip:1 	crc:3668173318 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36153.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36153.dds :1Mesg:	 --patch success \item\texture\W36153.dds 	zip:1 	crc:2831978118 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36154.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36154.dds :1Mesg:	 --patch success \item\texture\W36154.dds 	zip:1 	crc:76073582 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36155.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36155.dds :1Mesg:	 --patch success \item\texture\W36155.dds 	zip:1 	crc:783856207 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36301.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36301.dds :1Mesg:	 --patch success \item\texture\W36301.dds 	zip:1 	crc:2114989848 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36351.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36351.dds :1Mesg:	 --patch success \item\texture\W36351.dds 	zip:1 	crc:4167271742 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36352.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36352.dds :1Mesg:	 --patch success \item\texture\W36352.dds 	zip:1 	crc:2173673550 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W36401.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W36401.dds :1Mesg:	 --patch success \item\texture\W36401.dds 	zip:1 	crc:3002978245 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45301.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45301.dds :1Mesg:	 --patch success \item\texture\W45301.dds 	zip:1 	crc:356333411 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45401.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45401.dds :1Mesg:	 --patch success \item\texture\W45401.dds 	zip:1 	crc:1604224612 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45451.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45451.dds :1Mesg:	 --patch success \item\texture\W45451.dds 	zip:1 	crc:891535859 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45452.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45452.dds :1Mesg:	 --patch success \item\texture\W45452.dds 	zip:1 	crc:3765163243 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45453.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45453.dds :1Mesg:	 --patch success \item\texture\W45453.dds 	zip:1 	crc:3154671184 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45454.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45454.dds :1Mesg:	 --patch success \item\texture\W45454.dds 	zip:1 	crc:613045233 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45801.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45801.dds :1Mesg:	 --patch success \item\texture\W45801.dds 	zip:1 	crc:3710016067 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45851.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W45851.dds :1Mesg:	 --patch success \item\texture\W45851.dds 	zip:1 	crc:4194667862 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W69401.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\W69401.dds :1Mesg:	 --patch success \item\texture\W69401.dds 	zip:1 	crc:3356254611 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/WF9301.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\WF9301.dds :1Mesg:	 --patch success \item\texture\WF9301.dds 	zip:1 	crc:2202830047 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/WG2201.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\WG2201.dds :1Mesg:	 --patch success \item\texture\WG2201.dds 	zip:1 	crc:2903523325 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/WG2251.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\WG2251.dds :1Mesg:	 --patch success \item\texture\WG2251.dds 	zip:1 	crc:683734574 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/WG2252.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\WG2252.dds :1Mesg:	 --patch success \item\texture\WG2252.dds 	zip:1 	crc:883121349 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/WG2301.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\WG2301.dds :1Mesg:	 --patch success \item\texture\WG2301.dds 	zip:1 	crc:2303207903 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/WG2351.dds.bz2?202301031439
+Mesg:	 --Add Remove File To Pack item\texture\WG2351.dds :1Mesg:	 --patch success \item\texture\WG2351.dds 	zip:1 	crc:3459778724 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/map/model/object/UD112-1.bsg.bz2?202301031440
+Mesg:	 --Add Remove File To Pack map\model\object\UD112-1.bsg :1Mesg:	 --patch success \map\model\object\UD112-1.bsg 	zip:1 	crc:0 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R394.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R394.kfm :1Mesg:	 --patch success \ride\R394.kfm 	zip:1 	crc:4179923852 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R494.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R494.kfm :1Mesg:	 --patch success \ride\R494.kfm 	zip:1 	crc:1062523992 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R495.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R495.kfm :1Mesg:	 --patch success \ride\R495.kfm 	zip:1 	crc:2083689076 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R498.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R498.kfm :1Mesg:	 --patch success \ride\R498.kfm 	zip:1 	crc:1149006461 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R839.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R839.kfm :1Mesg:	 --patch success \ride\R839.kfm 	zip:1 	crc:2167395096 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R840.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R840.kfm :1Mesg:	 --patch success \ride\R840.kfm 	zip:1 	crc:2386964749 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R848.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R848.kfm :1Mesg:	 --patch success \ride\R848.kfm 	zip:1 	crc:3507175314 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R881.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R881.kfm :1Mesg:	 --patch success \ride\R881.kfm 	zip:1 	crc:2980693507 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R894.kfm.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\R894.kfm :1Mesg:	 --patch success \ride\R894.kfm 	zip:1 	crc:1897954731 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R394.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R394.kf :1Mesg:	 --patch success \ride\animation\R394.kf 	zip:1 	crc:862149990 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R494.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R494.kf :1Mesg:	 --patch success \ride\animation\R494.kf 	zip:1 	crc:1599666470 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R495.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R495.kf :1Mesg:	 --patch success \ride\animation\R495.kf 	zip:1 	crc:1013011357 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R498.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R498.kf :1Mesg:	 --patch success \ride\animation\R498.kf 	zip:1 	crc:1638927593 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R839.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R839.kf :1Mesg:	 --patch success \ride\animation\R839.kf 	zip:1 	crc:788891814 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R840.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R840.kf :1Mesg:	 --patch success \ride\animation\R840.kf 	zip:1 	crc:3602662290 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R848.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R848.kf :1Mesg:	 --patch success \ride\animation\R848.kf 	zip:1 	crc:641229994 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R881.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R881.kf :1Mesg:	 --patch success \ride\animation\R881.kf 	zip:1 	crc:1504841257 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R894.kf.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\animation\R894.kf :1Mesg:	 --patch success \ride\animation\R894.kf 	zip:1 	crc:3403089246 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R394.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R394.nif :1Mesg:	 --patch success \ride\model\R394.nif 	zip:1 	crc:1584939613 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R494.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R494.nif :1Mesg:	 --patch success \ride\model\R494.nif 	zip:1 	crc:3024209435 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R495.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R495.nif :1Mesg:	 --patch success \ride\model\R495.nif 	zip:1 	crc:1666099803 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R498.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R498.nif :1Mesg:	 --patch success \ride\model\R498.nif 	zip:1 	crc:2776217019 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R839.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R839.nif :1Mesg:	 --patch success \ride\model\R839.nif 	zip:1 	crc:3379073227 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R840.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R840.nif :1Mesg:	 --patch success \ride\model\R840.nif 	zip:1 	crc:3526051741 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R848.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R848.nif :1Mesg:	 --patch success \ride\model\R848.nif 	zip:1 	crc:788406289 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R881.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R881.nif :1Mesg:	 --patch success \ride\model\R881.nif 	zip:1 	crc:3273795752 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R894.nif.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\model\R894.nif :1Mesg:	 --patch success \ride\model\R894.nif 	zip:1 	crc:1949529878 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39401.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39401.dds :1Mesg:	 --patch success \ride\texture\R39401.dds 	zip:1 	crc:366392368 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39451.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39451.dds :1Mesg:	 --patch success \ride\texture\R39451.dds 	zip:1 	crc:411573731 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39452.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39452.dds :1Mesg:	 --patch success \ride\texture\R39452.dds 	zip:1 	crc:3549496372 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39453.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39453.dds :1Mesg:	 --patch success \ride\texture\R39453.dds 	zip:1 	crc:1848998977 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39454.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39454.dds :1Mesg:	 --patch success \ride\texture\R39454.dds 	zip:1 	crc:3047022793 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39455.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39455.dds :1Mesg:	 --patch success \ride\texture\R39455.dds 	zip:1 	crc:1121226459 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39456.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39456.dds :1Mesg:	 --patch success \ride\texture\R39456.dds 	zip:1 	crc:883121349 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39457.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39457.dds :1Mesg:	 --patch success \ride\texture\R39457.dds 	zip:1 	crc:3952472007 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R39458.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R39458.dds :1Mesg:	 --patch success \ride\texture\R39458.dds 	zip:1 	crc:1399717447 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49401.dds.bz2?202301031441
+Mesg:	 --Add Remove File To Pack ride\texture\R49401.dds :1Mesg:	 --patch success \ride\texture\R49401.dds 	zip:1 	crc:1926287887 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49451.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49451.dds :1Mesg:	 --patch success \ride\texture\R49451.dds 	zip:1 	crc:2050549630 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49452.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49452.dds :1Mesg:	 --patch success \ride\texture\R49452.dds 	zip:1 	crc:1251404476 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49453.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49453.dds :1Mesg:	 --patch success \ride\texture\R49453.dds 	zip:1 	crc:391733053 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49455.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49455.dds :1Mesg:	 --patch success \ride\texture\R49455.dds 	zip:1 	crc:3333441793 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49456.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49456.dds :1Mesg:	 --patch success \ride\texture\R49456.dds 	zip:1 	crc:697822358 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49457.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49457.dds :1Mesg:	 --patch success \ride\texture\R49457.dds 	zip:1 	crc:175313542 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49501.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49501.dds :1Mesg:	 --patch success \ride\texture\R49501.dds 	zip:1 	crc:3069121861 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49551.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49551.dds :1Mesg:	 --patch success \ride\texture\R49551.dds 	zip:1 	crc:1480370198 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49552.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49552.dds :1Mesg:	 --patch success \ride\texture\R49552.dds 	zip:1 	crc:2173673550 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49553.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49553.dds :1Mesg:	 --patch success \ride\texture\R49553.dds 	zip:1 	crc:1760573121 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R49801.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R49801.dds :1Mesg:	 --patch success \ride\texture\R49801.dds 	zip:1 	crc:2223975184 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R83901.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R83901.dds :1Mesg:	 --patch success \ride\texture\R83901.dds 	zip:1 	crc:2704032989 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R84001.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R84001.dds :1Mesg:	 --patch success \ride\texture\R84001.dds 	zip:1 	crc:1483674969 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R84051.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R84051.dds :1Mesg:	 --patch success \ride\texture\R84051.dds 	zip:1 	crc:2489634664 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R84801.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R84801.dds :1Mesg:	 --patch success \ride\texture\R84801.dds 	zip:1 	crc:2181524847 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R84851.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R84851.dds :1Mesg:	 --patch success \ride\texture\R84851.dds 	zip:1 	crc:645957627 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R88101.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R88101.dds :1Mesg:	 --patch success \ride\texture\R88101.dds 	zip:1 	crc:477883722 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R89401.dds.bz2?202301031442
+Mesg:	 --Add Remove File To Pack ride\texture\R89401.dds :1Mesg:	 --patch success \ride\texture\R89401.dds 	zip:1 	crc:825318187 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/sound/c622s01_1.wav.bz2?202301031442
+Mesg:	 --patch success \sound\c622s01_1.wav 	zip:0 	crc:1471145831 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/sound/c622s01_2.wav.bz2?202301031442
+Mesg:	 --patch success \sound\c622s01_2.wav 	zip:0 	crc:3817273206 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/sound/c622s01_3.wav.bz2?202301031442
+Mesg:	 --patch success \sound\c622s01_3.wav 	zip:0 	crc:1286410138 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/sound/c622s01_4.wav.bz2?202301031442
+Mesg:	 --patch success \sound\c622s01_4.wav 	zip:0 	crc:2735130041 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/sound/c622s01_5.wav.bz2?202301031442
+Mesg:	 --patch success \sound\c622s01_5.wav 	zip:0 	crc:575476485 
+Mesg:	 --After:V.1,3,
+1,747,,Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+
+
+
+*****************************************************************
+Thursday, January 19, 2023 ## 20:47:40
+*****************************************************************
+Mesg:	 --Before:V.1,3,
+1,747,,Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/CompressionGameData/version.txt?202301191947
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/GameDataFileList.txt.bz2?202301191947
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/GrandFantasia.exe.bz2?202301191947
+Mesg:	 --patch success \GrandFantasia.exe 	zip:0 	crc:1610944709 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11435.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11435.dds :1Mesg:	 --patch success \UI\itemicon\A11435.dds 	zip:1 	crc:3262392088 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11436.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11436.dds :1Mesg:	 --patch success \UI\itemicon\A11436.dds 	zip:1 	crc:1766498248 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11437.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11437.dds :1Mesg:	 --patch success \UI\itemicon\A11437.dds 	zip:1 	crc:3542505097 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A11438.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A11438.dds :1Mesg:	 --patch success \UI\itemicon\A11438.dds 	zip:1 	crc:3222757380 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21349.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21349.dds :1Mesg:	 --patch success \UI\itemicon\A21349.dds 	zip:1 	crc:2994049440 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21350.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21350.dds :1Mesg:	 --patch success \UI\itemicon\A21350.dds 	zip:1 	crc:1716629826 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21351.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21351.dds :1Mesg:	 --patch success \UI\itemicon\A21351.dds 	zip:1 	crc:891276400 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A21352.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A21352.dds :1Mesg:	 --patch success \UI\itemicon\A21352.dds 	zip:1 	crc:1416283183 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60470.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60470.dds :1Mesg:	 --patch success \UI\itemicon\A60470.dds 	zip:1 	crc:2063698165 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60508.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60508.dds :1Mesg:	 --patch success \UI\itemicon\A60508.dds 	zip:1 	crc:2517439735 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/A60512.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\A60512.dds :1Mesg:	 --patch success \UI\itemicon\A60512.dds 	zip:1 	crc:1554581490 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02578.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02578.dds :1Mesg:	 --patch success \UI\itemicon\I02578.dds 	zip:1 	crc:777439958 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02585.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02585.dds :1Mesg:	 --patch success \UI\itemicon\I02585.dds 	zip:1 	crc:3233146256 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02586.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02586.dds :1Mesg:	 --patch success \UI\itemicon\I02586.dds 	zip:1 	crc:3283143093 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02591.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02591.dds :1Mesg:	 --patch success \UI\itemicon\I02591.dds 	zip:1 	crc:77775701 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02592.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02592.dds :1Mesg:	 --patch success \UI\itemicon\I02592.dds 	zip:1 	crc:1770598481 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02593.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02593.dds :1Mesg:	 --patch success \UI\itemicon\I02593.dds 	zip:1 	crc:724533576 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02594.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02594.dds :1Mesg:	 --patch success \UI\itemicon\I02594.dds 	zip:1 	crc:2136030209 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02595.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02595.dds :1Mesg:	 --patch success \UI\itemicon\I02595.dds 	zip:1 	crc:3898557915 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/I02596.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\I02596.dds :1Mesg:	 --patch success \UI\itemicon\I02596.dds 	zip:1 	crc:3265827823 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W45901.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\W45901.dds :1Mesg:	 --patch success \UI\itemicon\W45901.dds 	zip:1 	crc:3631811332 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/itemicon/W46001.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\itemicon\W46001.dds :1Mesg:	 --patch success \UI\itemicon\W46001.dds 	zip:1 	crc:171897424 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_0.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_0.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_0.dds 	zip:1 	crc:2482139459 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_100.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_100.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_100.dds 	zip:1 	crc:2482139459 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_101.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_101.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_101.dds 	zip:1 	crc:2482139459 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/loadingframe/Loading_102.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\loadingframe\Loading_102.dds :1Mesg:	 --patch success \UI\loadingframe\Loading_102.dds 	zip:1 	crc:2482139459 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5840.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5840.dds :1Mesg:	 --patch success \UI\skillicon\E5840.dds 	zip:1 	crc:3455397052 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5847.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5847.dds :1Mesg:	 --patch success \UI\skillicon\E5847.dds 	zip:1 	crc:824031076 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5848.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5848.dds :1Mesg:	 --patch success \UI\skillicon\E5848.dds 	zip:1 	crc:427615275 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5853.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5853.dds :1Mesg:	 --patch success \UI\skillicon\E5853.dds 	zip:1 	crc:1602354996 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/UI/skillicon/E5854.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack UI\skillicon\E5854.dds :1Mesg:	 --patch success \UI\skillicon\E5854.dds 	zip:1 	crc:42576892 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B1891.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\B1891.nif :1Mesg:	 --patch success \char\model\B1891.nif 	zip:1 	crc:920535944 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B2I12.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\B2I12.nif :1Mesg:	 --patch success \char\model\B2I12.nif 	zip:1 	crc:2991096511 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/B3A62.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\B3A62.nif :1Mesg:	 --patch success \char\model\B3A62.nif 	zip:1 	crc:2286508841 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G1891.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\G1891.nif :1Mesg:	 --patch success \char\model\G1891.nif 	zip:1 	crc:3200443551 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G2I30.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\G2I30.nif :1Mesg:	 --patch success \char\model\G2I30.nif 	zip:1 	crc:416726559 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/G3C50.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\G3C50.nif :1Mesg:	 --patch success \char\model\G3C50.nif 	zip:1 	crc:1584057355 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A1F.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\X6A1F.nif :1Mesg:	 --patch success \char\model\X6A1F.nif 	zip:1 	crc:2049650792 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6A2J.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\X6A2J.nif :1Mesg:	 --patch success \char\model\X6A2J.nif 	zip:1 	crc:4042684364 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/model/X6AK7.nif.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\model\X6AK7.nif :1Mesg:	 --patch success \char\model\X6AK7.nif 	zip:1 	crc:1624529478 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1310H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B1310H05.dds :1Mesg:	 --patch success \char\texture\B1310H05.dds 	zip:1 	crc:2147457955 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B1891H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B1891H01.dds :1Mesg:	 --patch success \char\texture\B1891H01.dds 	zip:1 	crc:3135964245 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G04S48.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B2G04S48.dds :1Mesg:	 --patch success \char\texture\B2G04S48.dds 	zip:1 	crc:4178489890 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2G07H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B2G07H05.dds :1Mesg:	 --patch success \char\texture\B2G07H05.dds 	zip:1 	crc:1799449125 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2I01S33.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B2I01S33.dds :1Mesg:	 --patch success \char\texture\B2I01S33.dds 	zip:1 	crc:1782094359 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B2I12H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B2I12H01.dds :1Mesg:	 --patch success \char\texture\B2I12H01.dds 	zip:1 	crc:3814261946 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A07S05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B3A07S05.dds :1Mesg:	 --patch success \char\texture\B3A07S05.dds 	zip:1 	crc:3146236431 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A19H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B3A19H05.dds :1Mesg:	 --patch success \char\texture\B3A19H05.dds 	zip:1 	crc:1904068580 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B3A62H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B3A62H01.dds :1Mesg:	 --patch success \char\texture\B3A62H01.dds 	zip:1 	crc:2497106006 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4C02S38.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B4C02S38.dds :1Mesg:	 --patch success \char\texture\B4C02S38.dds 	zip:1 	crc:2709567065 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B4C11H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B4C11H05.dds :1Mesg:	 --patch success \char\texture\B4C11H05.dds 	zip:1 	crc:3426900882 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5A03S28.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B5A03S28.dds :1Mesg:	 --patch success \char\texture\B5A03S28.dds 	zip:1 	crc:1576827988 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5E02S72.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B5E02S72.dds :1Mesg:	 --patch success \char\texture\B5E02S72.dds 	zip:1 	crc:1862245233 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/B5E08H06.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\B5E08H06.dds :1Mesg:	 --patch success \char\texture\B5E08H06.dds 	zip:1 	crc:1743259855 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1310H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G1310H05.dds :1Mesg:	 --patch success \char\texture\G1310H05.dds 	zip:1 	crc:2193931661 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G1891H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G1891H01.dds :1Mesg:	 --patch success \char\texture\G1891H01.dds 	zip:1 	crc:1828051838 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2A05S66.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G2A05S66.dds :1Mesg:	 --patch success \char\texture\G2A05S66.dds 	zip:1 	crc:1255974345 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2A45H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G2A45H05.dds :1Mesg:	 --patch success \char\texture\G2A45H05.dds 	zip:1 	crc:2016844176 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I01S87.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G2I01S87.dds :1Mesg:	 --patch success \char\texture\G2I01S87.dds 	zip:1 	crc:4164377828 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G2I30H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G2I30H01.dds :1Mesg:	 --patch success \char\texture\G2I30H01.dds 	zip:1 	crc:4213578222 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3C03S30.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G3C03S30.dds :1Mesg:	 --patch success \char\texture\G3C03S30.dds 	zip:1 	crc:3035745564 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3C03S31.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G3C03S31.dds :1Mesg:	 --patch success \char\texture\G3C03S31.dds 	zip:1 	crc:1053957913 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3C08H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G3C08H05.dds :1Mesg:	 --patch success \char\texture\G3C08H05.dds 	zip:1 	crc:1877640862 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G3C50H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G3C50H01.dds :1Mesg:	 --patch success \char\texture\G3C50H01.dds 	zip:1 	crc:647081513 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G4A07H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G4A07H05.dds :1Mesg:	 --patch success \char\texture\G4A07H05.dds 	zip:1 	crc:4105732161 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F05H05.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G5F05H05.dds :1Mesg:	 --patch success \char\texture\G5F05H05.dds 	zip:1 	crc:2490615507 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F06S10.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G5F06S10.dds :1Mesg:	 --patch success \char\texture\G5F06S10.dds 	zip:1 	crc:3567265985 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/G5F06S17.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\G5F06S17.dds :1Mesg:	 --patch success \char\texture\G5F06S17.dds 	zip:1 	crc:1527478681 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A1FH01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A1FH01.dds :1Mesg:	 --patch success \char\texture\X6A1FH01.dds 	zip:1 	crc:3298660543 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A1FH51.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A1FH51.dds :1Mesg:	 --patch success \char\texture\X6A1FH51.dds 	zip:1 	crc:1513653369 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A1FH52.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A1FH52.dds :1Mesg:	 --patch success \char\texture\X6A1FH52.dds 	zip:1 	crc:633649341 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A1FH53.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A1FH53.dds :1Mesg:	 --patch success \char\texture\X6A1FH53.dds 	zip:1 	crc:982276785 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A1FH54.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A1FH54.dds :1Mesg:	 --patch success \char\texture\X6A1FH54.dds 	zip:1 	crc:3364666322 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2JH01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A2JH01.dds :1Mesg:	 --patch success \char\texture\X6A2JH01.dds 	zip:1 	crc:1590486761 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6A2JH51.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6A2JH51.dds :1Mesg:	 --patch success \char\texture\X6A2JH51.dds 	zip:1 	crc:2951046895 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/char/texture/X6AK7H01.dds.bz2?202301191947
+Mesg:	 --Add Remove File To Pack char\texture\X6AK7H01.dds :1Mesg:	 --patch success \char\texture\X6AK7H01.dds 	zip:1 	crc:2108361952 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Activity.ini.bz2?202301191947
+Mesg:	 --Add Remove File To Pack data\db\C_Activity.ini :1Mesg:	 --patch success \data\db\C_Activity.ini 	zip:1 	crc:215542809 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Collection.ini.bz2?202301191947
+Mesg:	 --Add Remove File To Pack data\db\C_Collection.ini :1Mesg:	 --patch success \data\db\C_Collection.ini 	zip:1 	crc:2770257667 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_DailyAwards.ini.bz2?202301191947
+Mesg:	 --Add Remove File To Pack data\db\C_DailyAwards.ini :1Mesg:	 --patch success \data\db\C_DailyAwards.ini 	zip:1 	crc:2639159657 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Dialogue.ini.bz2?202301191947
+Mesg:	 --Add Remove File To Pack data\db\C_Dialogue.ini :1Mesg:	 --patch success \data\db\C_Dialogue.ini 	zip:1 	crc:2886282636 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_DropItem.ini.bz2?202301191947
+Mesg:	 --Add Remove File To Pack data\db\C_DropItem.ini :1Mesg:	 --patch success \data\db\C_DropItem.ini 	zip:1 	crc:671493902 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Enchant.ini.bz2?202301191947
+Mesg:	 --Add Remove File To Pack data\db\C_Enchant.ini :1Mesg:	 --patch success \data\db\C_Enchant.ini 	zip:1 	crc:1524059487 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Item.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Item.ini :1Mesg:	 --patch success \data\db\C_Item.ini 	zip:1 	crc:458850082 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_ItemExchange.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_ItemExchange.ini :1Mesg:	 --patch success \data\db\C_ItemExchange.ini 	zip:1 	crc:1971027057 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_ItemMall.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_ItemMall.ini :1Mesg:	 --patch success \data\db\C_ItemMall.ini 	zip:1 	crc:721501801 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Mission.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Mission.ini :1Mesg:	 --patch success \data\db\C_Mission.ini 	zip:1 	crc:346450907 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Monster.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Monster.ini :1Mesg:	 --patch success \data\db\C_Monster.ini 	zip:1 	crc:701246804 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Npc.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Npc.ini :1Mesg:	 --patch success \data\db\C_Npc.ini 	zip:1 	crc:2681781264 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Parameter.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Parameter.ini :1Mesg:	 --patch success \data\db\C_Parameter.ini 	zip:1 	crc:2729721708 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_RankAward.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_RankAward.ini :1Mesg:	 --patch success \data\db\C_RankAward.ini 	zip:1 	crc:2449351386 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_RideStep.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_RideStep.ini :1Mesg:	 --patch success \data\db\C_RideStep.ini 	zip:1 	crc:3583944297 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Spell.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Spell.ini :1Mesg:	 --patch success \data\db\C_Spell.ini 	zip:1 	crc:2317140792 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_StarAvenue.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_StarAvenue.ini :1Mesg:	 --patch success \data\db\C_StarAvenue.ini 	zip:1 	crc:2460842210 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Store.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Store.ini :1Mesg:	 --patch success \data\db\C_Store.ini 	zip:1 	crc:2770777270 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_SysSetup.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_SysSetup.ini :1Mesg:	 --patch success \data\db\C_SysSetup.ini 	zip:1 	crc:2072723693 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_TextIndex.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_TextIndex.ini :1Mesg:	 --patch success \data\db\C_TextIndex.ini 	zip:1 	crc:2133569224 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/C_Title.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\C_Title.ini :1Mesg:	 --patch success \data\db\C_Title.ini 	zip:1 	crc:3103811842 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Equip.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\Equip.ini :1Mesg:	 --patch success \data\db\Equip.ini 	zip:1 	crc:728378918 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Motion.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\Motion.ini :1Mesg:	 --patch success \data\db\Motion.ini 	zip:1 	crc:3819775719 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/RideList.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\RideList.ini :1Mesg:	 --patch success \data\db\RideList.ini 	zip:1 	crc:3976388590 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/SuitEquip.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\SuitEquip.ini :1Mesg:	 --patch success \data\db\SuitEquip.ini 	zip:1 	crc:2666593996 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/db/Weapon.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\db\Weapon.ini :1Mesg:	 --patch success \data\db\Weapon.ini 	zip:1 	crc:2155154861 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S007.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\scene\S007.ini :1Mesg:	 --patch success \data\scene\S007.ini 	zip:1 	crc:2201104720 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S100.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\scene\S100.ini :1Mesg:	 --patch success \data\scene\S100.ini 	zip:1 	crc:1839490894 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S101.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\scene\S101.ini :1Mesg:	 --patch success \data\scene\S101.ini 	zip:1 	crc:1555117869 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/data/scene/S102.ini.bz2?202301191948
+Mesg:	 --Add Remove File To Pack data\scene\S102.ini :1Mesg:	 --patch success \data\scene\S102.ini 	zip:1 	crc:3437778447 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94081.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\model\S94081.nif :1Mesg:	 --patch success \effect\model\S94081.nif 	zip:1 	crc:1517133488 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94091.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\model\S94091.nif :1Mesg:	 --patch success \effect\model\S94091.nif 	zip:1 	crc:3771625466 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94101.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\model\S94101.nif :1Mesg:	 --patch success \effect\model\S94101.nif 	zip:1 	crc:1894135264 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94111.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\model\S94111.nif :1Mesg:	 --patch success \effect\model\S94111.nif 	zip:1 	crc:4111006864 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/model/S94121.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\model\S94121.nif :1Mesg:	 --patch success \effect\model\S94121.nif 	zip:1 	crc:1242603529 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9408101.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9408101.dds :1Mesg:	 --patch success \effect\texture\S9408101.dds 	zip:1 	crc:208794624 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9408102.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9408102.dds :1Mesg:	 --patch success \effect\texture\S9408102.dds 	zip:1 	crc:4122351042 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9408103.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9408103.dds :1Mesg:	 --patch success \effect\texture\S9408103.dds 	zip:1 	crc:3256520716 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9408104.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9408104.dds :1Mesg:	 --patch success \effect\texture\S9408104.dds 	zip:1 	crc:465920726 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9408105.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9408105.dds :1Mesg:	 --patch success \effect\texture\S9408105.dds 	zip:1 	crc:968378604 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9409101.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9409101.dds :1Mesg:	 --patch success \effect\texture\S9409101.dds 	zip:1 	crc:2637974536 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9409102.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9409102.dds :1Mesg:	 --patch success \effect\texture\S9409102.dds 	zip:1 	crc:2046716597 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9409103.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9409103.dds :1Mesg:	 --patch success \effect\texture\S9409103.dds 	zip:1 	crc:2586375198 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9409104.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9409104.dds :1Mesg:	 --patch success \effect\texture\S9409104.dds 	zip:1 	crc:873268184 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9409105.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9409105.dds :1Mesg:	 --patch success \effect\texture\S9409105.dds 	zip:1 	crc:3324093673 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410101.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410101.dds :1Mesg:	 --patch success \effect\texture\S9410101.dds 	zip:1 	crc:2023137186 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410102.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410102.dds :1Mesg:	 --patch success \effect\texture\S9410102.dds 	zip:1 	crc:3443676418 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410103.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410103.dds :1Mesg:	 --patch success \effect\texture\S9410103.dds 	zip:1 	crc:2698837584 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410104.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410104.dds :1Mesg:	 --patch success \effect\texture\S9410104.dds 	zip:1 	crc:2168747262 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410105.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410105.dds :1Mesg:	 --patch success \effect\texture\S9410105.dds 	zip:1 	crc:690910952 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410106.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410106.dds :1Mesg:	 --patch success \effect\texture\S9410106.dds 	zip:1 	crc:3277800903 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9410107.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9410107.dds :1Mesg:	 --patch success \effect\texture\S9410107.dds 	zip:1 	crc:4131587645 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9411101.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9411101.dds :1Mesg:	 --patch success \effect\texture\S9411101.dds 	zip:1 	crc:970997662 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9411102.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9411102.dds :1Mesg:	 --patch success \effect\texture\S9411102.dds 	zip:1 	crc:1328806495 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9411103.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9411103.dds :1Mesg:	 --patch success \effect\texture\S9411103.dds 	zip:1 	crc:124819604 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9411104.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9411104.dds :1Mesg:	 --patch success \effect\texture\S9411104.dds 	zip:1 	crc:2552159291 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9411105.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9411105.dds :1Mesg:	 --patch success \effect\texture\S9411105.dds 	zip:1 	crc:3002686243 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9412101.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9412101.dds :1Mesg:	 --patch success \effect\texture\S9412101.dds 	zip:1 	crc:1512493560 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9412102.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9412102.dds :1Mesg:	 --patch success \effect\texture\S9412102.dds 	zip:1 	crc:2911241365 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9412103.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9412103.dds :1Mesg:	 --patch success \effect\texture\S9412103.dds 	zip:1 	crc:3730072634 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9412104.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9412104.dds :1Mesg:	 --patch success \effect\texture\S9412104.dds 	zip:1 	crc:1521759123 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/effect/texture/S9412105.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack effect\texture\S9412105.dds :1Mesg:	 --patch success \effect\texture\S9412105.dds 	zip:1 	crc:2164362545 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W459.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\model\W459.nif :1Mesg:	 --patch success \item\model\W459.nif 	zip:1 	crc:456638719 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/model/W460.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\model\W460.nif :1Mesg:	 --patch success \item\model\W460.nif 	zip:1 	crc:690806182 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45901.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W45901.dds :1Mesg:	 --patch success \item\texture\W45901.dds 	zip:1 	crc:2870055872 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45951.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W45951.dds :1Mesg:	 --patch success \item\texture\W45951.dds 	zip:1 	crc:2405114520 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W45952.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W45952.dds :1Mesg:	 --patch success \item\texture\W45952.dds 	zip:1 	crc:3237379447 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46001.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46001.dds :1Mesg:	 --patch success \item\texture\W46001.dds 	zip:1 	crc:3312850225 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46051.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46051.dds :1Mesg:	 --patch success \item\texture\W46051.dds 	zip:1 	crc:4055904945 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46052.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46052.dds :1Mesg:	 --patch success \item\texture\W46052.dds 	zip:1 	crc:3029061005 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46053.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46053.dds :1Mesg:	 --patch success \item\texture\W46053.dds 	zip:1 	crc:2319860171 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46054.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46054.dds :1Mesg:	 --patch success \item\texture\W46054.dds 	zip:1 	crc:2511918206 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46055.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46055.dds :1Mesg:	 --patch success \item\texture\W46055.dds 	zip:1 	crc:3634063085 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46056.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46056.dds :1Mesg:	 --patch success \item\texture\W46056.dds 	zip:1 	crc:1235912665 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/item/texture/W46057.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack item\texture\W46057.dds :1Mesg:	 --patch success \item\texture\W46057.dds 	zip:1 	crc:829522636 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R550.kfm.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\R550.kfm :1Mesg:	 --patch success \ride\R550.kfm 	zip:1 	crc:3604893144 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R802.kfm.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\R802.kfm :1Mesg:	 --patch success \ride\R802.kfm 	zip:1 	crc:1596277359 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/R916.kfm.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\R916.kfm :1Mesg:	 --patch success \ride\R916.kfm 	zip:1 	crc:1947417695 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R550.kf.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\animation\R550.kf :1Mesg:	 --patch success \ride\animation\R550.kf 	zip:1 	crc:2518864733 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R802.kf.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\animation\R802.kf :1Mesg:	 --patch success \ride\animation\R802.kf 	zip:1 	crc:1421303729 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/animation/R916.kf.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\animation\R916.kf :1Mesg:	 --patch success \ride\animation\R916.kf 	zip:1 	crc:1501918783 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R550.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\model\R550.nif :1Mesg:	 --patch success \ride\model\R550.nif 	zip:1 	crc:2820500489 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R802.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\model\R802.nif :1Mesg:	 --patch success \ride\model\R802.nif 	zip:1 	crc:1603067177 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/model/R916.nif.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\model\R916.nif :1Mesg:	 --patch success \ride\model\R916.nif 	zip:1 	crc:496573883 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R03255.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R03255.dds :1Mesg:	 --patch success \ride\texture\R03255.dds 	zip:1 	crc:4072939775 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R55001.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R55001.dds :1Mesg:	 --patch success \ride\texture\R55001.dds 	zip:1 	crc:3562368209 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80201.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80201.dds :1Mesg:	 --patch success \ride\texture\R80201.dds 	zip:1 	crc:4249376324 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80251.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80251.dds :1Mesg:	 --patch success \ride\texture\R80251.dds 	zip:1 	crc:2409796055 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80252.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80252.dds :1Mesg:	 --patch success \ride\texture\R80252.dds 	zip:1 	crc:3042625750 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80253.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80253.dds :1Mesg:	 --patch success \ride\texture\R80253.dds 	zip:1 	crc:1241646295 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80254.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80254.dds :1Mesg:	 --patch success \ride\texture\R80254.dds 	zip:1 	crc:749974754 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80255.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80255.dds :1Mesg:	 --patch success \ride\texture\R80255.dds 	zip:1 	crc:3009957615 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80256.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80256.dds :1Mesg:	 --patch success \ride\texture\R80256.dds 	zip:1 	crc:262323810 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80257.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80257.dds :1Mesg:	 --patch success \ride\texture\R80257.dds 	zip:1 	crc:874565504 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80258.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80258.dds :1Mesg:	 --patch success \ride\texture\R80258.dds 	zip:1 	crc:1556274019 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R80259.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R80259.dds :1Mesg:	 --patch success \ride\texture\R80259.dds 	zip:1 	crc:2153471399 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91601.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91601.dds :1Mesg:	 --patch success \ride\texture\R91601.dds 	zip:1 	crc:249418814 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91651.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91651.dds :1Mesg:	 --patch success \ride\texture\R91651.dds 	zip:1 	crc:3922691205 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91652.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91652.dds :1Mesg:	 --patch success \ride\texture\R91652.dds 	zip:1 	crc:59376900 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91653.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91653.dds :1Mesg:	 --patch success \ride\texture\R91653.dds 	zip:1 	crc:1315358253 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91654.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91654.dds :1Mesg:	 --patch success \ride\texture\R91654.dds 	zip:1 	crc:161658020 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91655.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91655.dds :1Mesg:	 --patch success \ride\texture\R91655.dds 	zip:1 	crc:2719883898 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91656.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91656.dds :1Mesg:	 --patch success \ride\texture\R91656.dds 	zip:1 	crc:2225155481 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91657.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91657.dds :1Mesg:	 --patch success \ride\texture\R91657.dds 	zip:1 	crc:4094234974 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91658.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91658.dds :1Mesg:	 --patch success \ride\texture\R91658.dds 	zip:1 	crc:252872783 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91659.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91659.dds :1Mesg:	 --patch success \ride\texture\R91659.dds 	zip:1 	crc:1858191243 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91660.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91660.dds :1Mesg:	 --patch success \ride\texture\R91660.dds 	zip:1 	crc:3763692287 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91661.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91661.dds :1Mesg:	 --patch success \ride\texture\R91661.dds 	zip:1 	crc:731117523 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91662.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91662.dds :1Mesg:	 --patch success \ride\texture\R91662.dds 	zip:1 	crc:3322089643 
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/ride/texture/R91663.dds.bz2?202301191948
+Mesg:	 --Add Remove File To Pack ride\texture\R91663.dds :1Mesg:	 --patch success \ride\texture\R91663.dds 	zip:1 	crc:36683799 
+Mesg:	 --After:V.1,3,
+1,750,,Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+
+
+
+*****************************************************************
+Thursday, January 19, 2023 ## 20:49:29
+*****************************************************************
+Mesg:	 --Before:V.1,3,
+1,750,,Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/CompressionGameData/version.txt?202301191949
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/GameDataFileList.txt.bz2?202301191949
+Mesg:	 --After:V.1,3,
+1,750,,Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+Mesg:	 --before registry
+Mesg:	 --Set Reg Value "InstallPath":C:\X-Legend\GrandFantasia
+Mesg:	 --after registry
+
+
+
+*****************************************************************
+Thursday, January 19, 2023 ## 20:53:48
+*****************************************************************
+Mesg:	 --Before:V.1,3,
+1,750,,Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/CompressionGameData/version.txt?202301191953
+Mesg:	 --HTTP dumpfile: http://ftp.djonline.com.tw/ELF/20090211103217bz2/GameDataFileList.txt.bz2?202301191953
+Mesg:	 --After:V.1,3,
+1,750,,

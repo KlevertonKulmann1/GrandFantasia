@@ -1,0 +1,25 @@
+# Pacotes pesados do jogo
+*.pkg
+pkg.idx
+pkgdata.dat
+
+# Mídias estáticas pesadas
+bgm/
+sound/
+Movies/
+font/*.ttf
+
+# Logs, crashes e temporários
+*.log
+*.dmp
+*.zip
+CrashRpt/
+
+# Configurações locais de usuário e prints
+ScreenCapture/
+UserSetting/
+User.ini
+client.ini
+
+# Backups antigos
+*_old.ini
