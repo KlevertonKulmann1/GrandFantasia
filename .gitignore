@@ -14,6 +14,7 @@ font/*.ttf
 *.dmp
 *.zip
 CrashRpt/
+launcher_version.txt
 
 # Configurações locais de usuário e prints
 ScreenCapture/
