@@ -116,7 +116,7 @@
                 <SingleEditNode EditType="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="5001" WindowText="輸入玩家名稱" WindowLeft="23" WindowTop="43" WindowHeight="160" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5001" WindowText="Nome do Jogador" WindowLeft="23" WindowTop="43" WindowHeight="160" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -124,7 +124,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="6003" WindowText="取消" WindowLeft="121" WindowTop="107" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6003" WindowText="Cancelar" WindowLeft="121" WindowTop="107" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -136,7 +136,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="6002" WindowText="確定" WindowLeft="23" WindowTop="107" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6002" WindowText="Confirmar" WindowLeft="23" WindowTop="107" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -160,7 +160,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="6004" WindowText="通訊錄" WindowLeft="121" WindowTop="67" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6004" WindowText="Contatos" WindowLeft="121" WindowTop="67" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -172,7 +172,7 @@
                 </ButtonNode>
             </BaseWndProperty>
 			<Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="6005" WindowText="隊員招募" WindowLeft="121" WindowTop="41" WindowHeight="64" WindowWidth="18" Visible="0" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6005" WindowText="Recrutamento" WindowLeft="121" WindowTop="41" WindowHeight="64" WindowWidth="18" Visible="0" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -184,7 +184,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="4000" WindowText="邀請" WindowLeft="18" WindowTop="2" WindowHeight="100" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4000" WindowText="Convidar" WindowLeft="18" WindowTop="2" WindowHeight="100" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

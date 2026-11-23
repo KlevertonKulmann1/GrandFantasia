@@ -37,7 +37,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="4000" WindowText="²Å¥Û¬~Áå" WindowLeft="12" WindowTop="3" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4000" WindowText="Reforjar Runa" WindowLeft="12" WindowTop="3" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -45,7 +45,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="4001" WindowText="²Å¥Û" WindowLeft="58" WindowTop="61" WindowHeight="50" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4001" WindowText="Runa" WindowLeft="58" WindowTop="61" WindowHeight="50" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -53,7 +53,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="4002" WindowText="µêÄ_" WindowLeft="57" WindowTop="125" WindowHeight="50" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4002" WindowText="Item Mall" WindowLeft="57" WindowTop="125" WindowHeight="50" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

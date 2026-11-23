@@ -385,7 +385,7 @@
                 <SlotNode />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30000" WindowText="移動設定" WindowLeft="22" WindowTop="249" WindowHeight="100" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30000" WindowText="Movimento" WindowLeft="22" WindowTop="249" WindowHeight="100" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -393,7 +393,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30001" WindowText="遠距離" WindowLeft="40" WindowTop="269" WindowHeight="50" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30001" WindowText="Longa Dist." WindowLeft="40" WindowTop="269" WindowHeight="50" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -401,7 +401,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30002" WindowText="中距離" WindowLeft="104" WindowTop="269" WindowHeight="50" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30002" WindowText="M嶮ia Dist." WindowLeft="104" WindowTop="269" WindowHeight="50" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -409,7 +409,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30003" WindowText="近距離(預設值)" WindowLeft="169" WindowTop="269" WindowHeight="110" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30003" WindowText="Curta (Padr緌)" WindowLeft="169" WindowTop="269" WindowHeight="110" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -417,7 +417,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30004" WindowText="鎖定中心點(123,456)" WindowLeft="40" WindowTop="288" WindowHeight="200" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30004" WindowText="Centro Fixo (123,456)" WindowLeft="40" WindowTop="288" WindowHeight="200" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -425,7 +425,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30005" WindowText="(距離過遠將自動往中心點方向移動)" WindowLeft="38" WindowTop="305" WindowHeight="250" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30005" WindowText="(Retorna ao centro se afastar demais)" WindowLeft="38" WindowTop="305" WindowHeight="250" WindowWidth="15" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

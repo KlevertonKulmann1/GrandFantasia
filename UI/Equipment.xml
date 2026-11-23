@@ -689,7 +689,7 @@
                 <SlotNode />
             </BaseWndProperty>
             <Style ParentNode="1001" CtrlType="131072" />
-            <BaseWndProperty WindowID="5002" WindowText="¸Ô²ÓÄÝ©Ê" WindowLeft="26" WindowTop="293" WindowHeight="76" WindowWidth="21" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5002" WindowText="Detalhes" WindowLeft="26" WindowTop="293" WindowHeight="76" WindowWidth="21" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj07.dds">
                     <NorUV NorUVLeft="812" NorUVTop="95" NorUVWidth="76" NorUVHeight="21" />
                 </BackGroundMap>

@@ -17,7 +17,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="2" WindowText="易容工具" WindowLeft="16" WindowTop="3" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2" WindowText="Apar瘽cia" WindowLeft="16" WindowTop="3" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -25,7 +25,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3" WindowText="角色造型" WindowLeft="33" WindowTop="44" WindowHeight="128" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3" WindowText="Apar瘽cia" WindowLeft="33" WindowTop="44" WindowHeight="128" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -33,7 +33,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="4" WindowText="選擇性別" WindowLeft="28" WindowTop="78" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4" WindowText="Escolher Sexo" WindowLeft="28" WindowTop="78" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -41,7 +41,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="5" WindowText="選擇造型" WindowLeft="28" WindowTop="151" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5" WindowText="Escolher Visual" WindowLeft="28" WindowTop="151" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -49,7 +49,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="6" WindowText="相貌" WindowLeft="36" WindowTop="181" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6" WindowText="Rosto" WindowLeft="36" WindowTop="181" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -57,7 +57,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="7" WindowText="瞳色" WindowLeft="36" WindowTop="220" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="7" WindowText="Cor Olhos" WindowLeft="36" WindowTop="220" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -65,7 +65,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="8" WindowText="髮型" WindowLeft="36" WindowTop="258" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="8" WindowText="Cabelo" WindowLeft="36" WindowTop="258" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -73,7 +73,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="9" WindowText="髮色" WindowLeft="35" WindowTop="296" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="9" WindowText="Cor Cabelo" WindowLeft="35" WindowTop="296" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -81,7 +81,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="10" WindowText="膚色" WindowLeft="36" WindowTop="334" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="10" WindowText="Cor Pele" WindowLeft="36" WindowTop="334" WindowHeight="32" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -283,7 +283,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="5000" WindowText="確定" WindowLeft="310" WindowTop="387" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5000" WindowText="Confirmar" WindowLeft="310" WindowTop="387" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -295,7 +295,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="5001" WindowText="關閉" WindowLeft="380" WindowTop="387" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5001" WindowText="Fechar" WindowLeft="380" WindowTop="387" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -307,7 +307,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="5002" WindowText="關閉" WindowLeft="240" WindowTop="387" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5002" WindowText="Fechar" WindowLeft="240" WindowTop="387" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>

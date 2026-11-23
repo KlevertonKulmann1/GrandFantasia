@@ -17,7 +17,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3" WindowText="ด๚ธี" WindowLeft="20" WindowTop="41" WindowHeight="123" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3" WindowText="Item" WindowLeft="20" WindowTop="41" WindowHeight="123" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

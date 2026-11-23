@@ -143,7 +143,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="9000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="9050" WindowText="Ãdª«´ú¸Õ" WindowLeft="242" WindowTop="7" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="9050" WindowText="Sprite" WindowLeft="242" WindowTop="7" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

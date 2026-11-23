@@ -509,7 +509,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="3006" WindowText="¯S®í¼ú" WindowLeft="271" WindowTop="293" WindowHeight="60" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3006" WindowText="Prêmio Especial" WindowLeft="271" WindowTop="293" WindowHeight="60" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>

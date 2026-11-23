@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Root_Node UI_File_Name="ToolTips_Detail.xml" Texture_Path="" Screen_X="1024" Screen_Y="768">
     <Style Style="65536" />
-    <BaseWndProperty WindowID="1" WindowText="ToolTips(¤j) - Top" WindowLeft="0" WindowTop="0" WindowHeight="42" WindowWidth="41" Visible="1" FixSize="0" Drag="0" Drop="0">
+    <BaseWndProperty WindowID="1" WindowText="ToolTips" WindowLeft="0" WindowTop="0" WindowHeight="42" WindowWidth="41" Visible="1" FixSize="0" Drag="0" Drop="0">
         <BackGroundMap BGmap="Slot32.dds">
             <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="184" NorUVHeight="8" />
         </BackGroundMap>

@@ -379,7 +379,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1004" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3100" WindowText="編號0-4999以內請勿使用" WindowLeft="19" WindowTop="306" WindowHeight="150" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3100" WindowText="Reservado" WindowLeft="19" WindowTop="306" WindowHeight="150" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -387,7 +387,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1004" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3101" WindowText="程式邏輯" WindowLeft="19" WindowTop="330" WindowHeight="66" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3101" WindowText="Texto" WindowLeft="19" WindowTop="330" WindowHeight="66" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -395,7 +395,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1004" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3102" WindowText="判斷會用到" WindowLeft="106" WindowTop="330" WindowHeight="66" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3102" WindowText="Texto" WindowLeft="106" WindowTop="330" WindowHeight="66" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

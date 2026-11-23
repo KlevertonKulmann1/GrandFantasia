@@ -101,7 +101,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="10007" CtrlType="262144" />
-            <BaseWndProperty WindowID="20003" WindowText="關閉" WindowLeft="225" WindowTop="362" WindowHeight="56" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="20003" WindowText="Fechar" WindowLeft="225" WindowTop="362" WindowHeight="56" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -113,7 +113,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="10007" CtrlType="262144" />
-            <BaseWndProperty WindowID="20004" WindowText="捐獻" WindowLeft="156" WindowTop="362" WindowHeight="56" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="20004" WindowText="Doar" WindowLeft="156" WindowTop="362" WindowHeight="56" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -125,7 +125,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="10001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30001" WindowText="聲望類型" WindowLeft="15" WindowTop="3" WindowHeight="100" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30001" WindowText="Tipo de Reputa誽o" WindowLeft="15" WindowTop="3" WindowHeight="100" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -133,7 +133,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30002" WindowText="獲得草原祭壇聲望: 0" WindowLeft="20" WindowTop="336" WindowHeight="260" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30002" WindowText="Reputa誽o Altar: 0" WindowLeft="20" WindowTop="336" WindowHeight="260" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

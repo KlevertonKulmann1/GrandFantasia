@@ -29,7 +29,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="131072" />
-            <BaseWndProperty WindowID="2010" WindowText="收件箱" WindowLeft="10" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2010" WindowText="Entrada" WindowLeft="10" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="196" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -41,7 +41,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="131072" />
-            <BaseWndProperty WindowID="2020" WindowText="寄件箱" WindowLeft="68" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2020" WindowText="Enviados" WindowLeft="68" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="244" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -53,7 +53,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="2030" WindowText="通訊錄" WindowLeft="213" WindowTop="77" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2030" WindowText="Contatos" WindowLeft="213" WindowTop="77" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -65,7 +65,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="2050" WindowText="取 消" WindowLeft="212" WindowTop="378" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2050" WindowText="Cancelar" WindowLeft="212" WindowTop="378" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -77,7 +77,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="2040" WindowText="寄 出" WindowLeft="140" WindowTop="378" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2040" WindowText="Enviar" WindowLeft="140" WindowTop="378" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -89,7 +89,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3000" WindowText="郵件" WindowLeft="12" WindowTop="2" WindowHeight="30" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3000" WindowText="Correio" WindowLeft="12" WindowTop="2" WindowHeight="30" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -97,7 +97,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3001" WindowText="收件人" WindowLeft="16" WindowTop="58" WindowHeight="40" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3001" WindowText="Destinat嫫io" WindowLeft="16" WindowTop="58" WindowHeight="40" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -105,7 +105,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3002" WindowText="標　題" WindowLeft="16" WindowTop="79" WindowHeight="40" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3002" WindowText="T癃ulo" WindowLeft="16" WindowTop="79" WindowHeight="40" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -113,7 +113,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3003" WindowText="郵資" WindowLeft="135" WindowTop="58" WindowHeight="28" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3003" WindowText="Taxa" WindowLeft="135" WindowTop="58" WindowHeight="28" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -121,7 +121,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3004" WindowText="寄送水晶和金錢" WindowLeft="96" WindowTop="327" WindowHeight="96" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3004" WindowText="Enviar Ouro/Cristal" WindowLeft="96" WindowTop="327" WindowHeight="96" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

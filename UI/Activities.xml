@@ -159,7 +159,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="430" CtrlType="33554432" />
-            <BaseWndProperty WindowID="320" WindowText="¤µ¤Ñ" WindowLeft="309" WindowTop="31" WindowHeight="95" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="320" WindowText="Hoje" WindowLeft="309" WindowTop="31" WindowHeight="95" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

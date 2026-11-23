@@ -81,7 +81,7 @@
                 <TextNode TextAlign="2" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="21000" WindowText="極速紀錄保持：1234567890123456" WindowLeft="150" WindowTop="68" WindowHeight="200" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="21000" WindowText="Recorde: ---" WindowLeft="150" WindowTop="68" WindowHeight="200" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -97,7 +97,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="21002" WindowText="日期：2013/07/07" WindowLeft="470" WindowTop="68" WindowHeight="120" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="21002" WindowText="Data: --/--/----" WindowLeft="470" WindowTop="68" WindowHeight="120" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -105,7 +105,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="21010" WindowText="極速紀錄保持：1234567890123456" WindowLeft="150" WindowTop="83" WindowHeight="200" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="21010" WindowText="Recorde: ---" WindowLeft="150" WindowTop="83" WindowHeight="200" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -121,7 +121,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="21012" WindowText="日期：2013/07/07" WindowLeft="470" WindowTop="83" WindowHeight="120" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="21012" WindowText="Data: --/--/----" WindowLeft="470" WindowTop="83" WindowHeight="120" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -129,7 +129,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="22000" WindowText="名次" WindowLeft="148" WindowTop="111" WindowHeight="32" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="22000" WindowText="Rank" WindowLeft="148" WindowTop="111" WindowHeight="32" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -137,7 +137,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="22001" WindowText="角色名稱" WindowLeft="181" WindowTop="111" WindowHeight="94" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="22001" WindowText="Personagem" WindowLeft="181" WindowTop="111" WindowHeight="94" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -145,7 +145,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="22002" WindowText="挑戰次數" WindowLeft="280" WindowTop="111" WindowHeight="60" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="22002" WindowText="Tentativas" WindowLeft="280" WindowTop="111" WindowHeight="60" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -153,7 +153,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="22003" WindowText="完成時間" WindowLeft="344" WindowTop="111" WindowHeight="68" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="22003" WindowText="Tempo" WindowLeft="344" WindowTop="111" WindowHeight="68" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -161,7 +161,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="10001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="22004" WindowText="小隊宣言" WindowLeft="415" WindowTop="111" WindowHeight="186" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="22004" WindowText="Mensagem do Grupo" WindowLeft="415" WindowTop="111" WindowHeight="186" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -831,7 +831,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="11001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23000" WindowText="名次" WindowLeft="148" WindowTop="111" WindowHeight="32" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23000" WindowText="Rank" WindowLeft="148" WindowTop="111" WindowHeight="32" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -839,7 +839,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="11001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23001" WindowText="角色名稱" WindowLeft="181" WindowTop="111" WindowHeight="96" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23001" WindowText="Personagem" WindowLeft="181" WindowTop="111" WindowHeight="96" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -847,7 +847,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="11001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23002" WindowText="等級" WindowLeft="277" WindowTop="111" WindowHeight="48" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23002" WindowText="N癉el" WindowLeft="277" WindowTop="111" WindowHeight="48" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -855,7 +855,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="11001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23003" WindowText="完成時間" WindowLeft="327" WindowTop="111" WindowHeight="80" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23003" WindowText="Tempo" WindowLeft="327" WindowTop="111" WindowHeight="80" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -863,7 +863,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="11001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23004" WindowText="達成日期" WindowLeft="410" WindowTop="111" WindowHeight="80" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23004" WindowText="Data" WindowLeft="410" WindowTop="111" WindowHeight="80" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -871,7 +871,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="11001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23005" WindowText="所屬公會" WindowLeft="494" WindowTop="111" WindowHeight="110" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23005" WindowText="Guilda" WindowLeft="494" WindowTop="111" WindowHeight="110" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -1643,7 +1643,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="12001" CtrlType="33554432" />
-            <BaseWndProperty WindowID="24000" WindowText="LV1-60副本競速" WindowLeft="235" WindowTop="76" WindowHeight="280" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="24000" WindowText="Corrida Masmorra Nv1-60" WindowLeft="235" WindowTop="76" WindowHeight="280" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

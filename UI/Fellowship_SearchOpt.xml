@@ -29,7 +29,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="200" WindowText="拒絕組隊UI" WindowLeft="33" WindowTop="37" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="200" WindowText="Recusar Grupo" WindowLeft="33" WindowTop="37" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -37,7 +37,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="201" WindowText="不願被搜尋UI" WindowLeft="33" WindowTop="54" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="201" WindowText="N緌 aparecer na busca" WindowLeft="33" WindowTop="54" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -69,7 +69,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="262144" />
-            <BaseWndProperty WindowID="100" WindowText="確定UI" WindowLeft="21" WindowTop="102" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="100" WindowText="Confirmar" WindowLeft="21" WindowTop="102" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -81,7 +81,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="262144" />
-            <BaseWndProperty WindowID="101" WindowText="離開UI" WindowLeft="97" WindowTop="102" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="101" WindowText="Sair" WindowLeft="97" WindowTop="102" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>

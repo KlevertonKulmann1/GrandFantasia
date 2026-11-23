@@ -39,7 +39,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="131072" />
-            <BaseWndProperty WindowID="2010" WindowText="好 友" WindowLeft="10" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2010" WindowText="Amigos" WindowLeft="10" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="196" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -51,7 +51,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="131072" />
-            <BaseWndProperty WindowID="2020" WindowText="公 會" WindowLeft="68" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2020" WindowText="Guilda" WindowLeft="68" WindowTop="30" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="196" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -63,7 +63,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="2030" WindowText="角色名稱" WindowLeft="20" WindowTop="60" WindowHeight="112" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2030" WindowText="Personagem" WindowLeft="20" WindowTop="60" WindowHeight="112" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj02.dds">
                     <NorUV NorUVLeft="267" NorUVTop="876" NorUVWidth="81" NorUVHeight="19" />
                 </BackGroundMap>
@@ -75,7 +75,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="2040" WindowText="確 定" WindowLeft="16" WindowTop="260" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2040" WindowText="Confirmar" WindowLeft="16" WindowTop="260" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -87,7 +87,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="262144" />
-            <BaseWndProperty WindowID="2050" WindowText="關 閉" WindowLeft="88" WindowTop="260" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2050" WindowText="Fechar" WindowLeft="88" WindowTop="260" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -99,7 +99,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3000" WindowText="通訊錄" WindowLeft="12" WindowTop="2" WindowHeight="44" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3000" WindowText="Contatos" WindowLeft="12" WindowTop="2" WindowHeight="44" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

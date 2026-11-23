@@ -203,7 +203,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="5" CtrlType="33554432" />
-            <BaseWndProperty WindowID="2000" WindowText="推薦活動表" WindowLeft="16" WindowTop="3" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2000" WindowText="Eventos Recomendados" WindowLeft="16" WindowTop="3" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -211,7 +211,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="33554432" />
-            <BaseWndProperty WindowID="2001" WindowText="過濾已完成" WindowLeft="50" WindowTop="44" WindowHeight="68" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2001" WindowText="Ocultar Conclu獮os" WindowLeft="50" WindowTop="44" WindowHeight="68" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

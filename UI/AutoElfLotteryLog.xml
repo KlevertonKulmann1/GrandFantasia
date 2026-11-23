@@ -37,7 +37,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="999" CtrlType="33554432" />
-            <BaseWndProperty WindowID="1002" WindowText="自動煉金標題" WindowLeft="17" WindowTop="1" WindowHeight="100" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="1002" WindowText="Alquimia Autom嫢ica" WindowLeft="17" WindowTop="1" WindowHeight="100" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

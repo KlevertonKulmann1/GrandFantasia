@@ -379,7 +379,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="9000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="9010" WindowText="胐代刚" WindowLeft="155" WindowTop="14" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="9010" WindowText="Sprite 1" WindowLeft="155" WindowTop="14" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -423,7 +423,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="9100" CtrlType="33554432" />
-            <BaseWndProperty WindowID="9110" WindowText="胐代刚" WindowLeft="155" WindowTop="97" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="9110" WindowText="Sprite 2" WindowLeft="155" WindowTop="97" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -467,7 +467,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="9200" CtrlType="33554432" />
-            <BaseWndProperty WindowID="9210" WindowText="胐代刚" WindowLeft="155" WindowTop="180" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="9210" WindowText="Sprite 3" WindowLeft="155" WindowTop="180" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="541" NorUVTop="327" NorUVWidth="90" NorUVHeight="40" />
                 </BackGroundMap>
@@ -511,7 +511,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="9300" CtrlType="33554432" />
-            <BaseWndProperty WindowID="9310" WindowText="胐代刚" WindowLeft="155" WindowTop="263" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="9310" WindowText="Sprite 4" WindowLeft="155" WindowTop="263" WindowHeight="63" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

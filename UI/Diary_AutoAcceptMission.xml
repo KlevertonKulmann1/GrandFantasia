@@ -247,7 +247,7 @@
                 </TrackNode>
             </BaseWndProperty>
             <Style ParentNode="10003" CtrlType="33554432" />
-            <BaseWndProperty WindowID="30000" WindowText="冒險日誌" WindowLeft="17" WindowTop="4" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="30000" WindowText="Di嫫io de Aventura" WindowLeft="17" WindowTop="4" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -255,7 +255,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="31000" WindowText="共有任務 個" WindowLeft="20" WindowTop="59" WindowHeight="110" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="31000" WindowText="Miss髊s:" WindowLeft="20" WindowTop="59" WindowHeight="110" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

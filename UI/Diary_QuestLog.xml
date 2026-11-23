@@ -165,7 +165,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="5" CtrlType="33554432" />
-            <BaseWndProperty WindowID="7" WindowText="冒險日誌" WindowLeft="17" WindowTop="4" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="7" WindowText="Di嫫io de Aventura" WindowLeft="17" WindowTop="4" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -185,7 +185,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="5" CtrlType="131072" />
-            <BaseWndProperty WindowID="2100" WindowText="任務清單" WindowLeft="66" WindowTop="31" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2100" WindowText="Lista de Miss髊s" WindowLeft="66" WindowTop="31" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="244" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -197,7 +197,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="5" CtrlType="131072" />
-            <BaseWndProperty WindowID="2200" WindowText="陣營聲望" WindowLeft="121" WindowTop="31" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2200" WindowText="Reputa誽o" WindowLeft="121" WindowTop="31" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="196" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -209,7 +209,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3100" WindowText="共有任務 個" WindowLeft="20" WindowTop="59" WindowHeight="110" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3100" WindowText="Miss髊s:" WindowLeft="20" WindowTop="59" WindowHeight="110" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

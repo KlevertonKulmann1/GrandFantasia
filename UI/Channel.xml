@@ -47,7 +47,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="1020" CtrlType="131072" />
-            <BaseWndProperty WindowID="2001" WindowText="綜合頻道" WindowLeft="11" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2001" WindowText="Canal Geral" WindowLeft="11" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="600" NorUVTop="167" NorUVWidth="82" NorUVHeight="20" />
                 </BackGroundMap>
@@ -59,7 +59,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1020" CtrlType="131072" />
-            <BaseWndProperty WindowID="2002" WindowText="隊伍頻道" WindowLeft="79" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2002" WindowText="Canal Grupo" WindowLeft="79" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj04.dds">
                     <NorUV NorUVLeft="476" NorUVTop="2" NorUVWidth="82" NorUVHeight="20" />
                 </BackGroundMap>
@@ -71,7 +71,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1020" CtrlType="131072" />
-            <BaseWndProperty WindowID="2003" WindowText="公會頻道" WindowLeft="146" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2003" WindowText="Canal Guilda" WindowLeft="146" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj04.dds">
                     <NorUV NorUVLeft="555" NorUVTop="2" NorUVWidth="82" NorUVHeight="20" />
                 </BackGroundMap>
@@ -83,7 +83,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1020" CtrlType="131072" />
-            <BaseWndProperty WindowID="2004" WindowText="戰鬥頻道" WindowLeft="214" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="2004" WindowText="Canal Combate" WindowLeft="214" WindowTop="92" WindowHeight="82" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj04.dds">
                     <NorUV NorUVLeft="635" NorUVTop="2" NorUVWidth="82" NorUVHeight="20" />
                 </BackGroundMap>

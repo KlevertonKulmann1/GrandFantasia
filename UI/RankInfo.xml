@@ -154,7 +154,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="901" CtrlType="33554432" />
-            <BaseWndProperty WindowID="500" WindowText="個人英雄榜查詢" WindowLeft="17" WindowTop="4" WindowHeight="200" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="500" WindowText="Ranking Pessoal" WindowLeft="17" WindowTop="4" WindowHeight="200" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -392,7 +392,7 @@
                 <TextNode TextAlign="1" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="8000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="8009" WindowText="篩選" WindowLeft="346" WindowTop="133" WindowHeight="30" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="8009" WindowText="Filtrar" WindowLeft="346" WindowTop="133" WindowHeight="30" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

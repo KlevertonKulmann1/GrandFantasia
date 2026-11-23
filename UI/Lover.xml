@@ -571,7 +571,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="23002" WindowText="·P±¡ª¬ºA" WindowLeft="263" WindowTop="59" WindowHeight="108" WindowWidth="32" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="23002" WindowText="Relacionamento" WindowLeft="263" WindowTop="59" WindowHeight="108" WindowWidth="32" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

@@ -101,7 +101,7 @@
                 <BackGroundMap BGmap="function01.dds">
                     <NorUV NorUVLeft="436" NorUVTop="422" NorUVWidth="19" NorUVHeight="13" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="關閉" FontFace="細明體" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Fechar" FontFace="細明體" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="436" FocusUVTop="437" FocusUVWidth="19" FocusUVHeight="13" />
                     <DownUV DownUVLeft="436" DownUVTop="452" DownUVWidth="19" DownUVHeight="13" />
@@ -109,11 +109,11 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="5010" WindowText="畫面選項" WindowLeft="17" WindowTop="31" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5010" WindowText="V獮eo" WindowLeft="17" WindowTop="31" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="function01.dds">
                     <NorUV NorUVLeft="384" NorUVTop="278" NorUVWidth="76" NorUVHeight="18" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="畫面選項" FontFace="細明體" FontSize="10" FontColor="16777215" FontStyle="0" />
+                <BaseCtrlProperty Tips="V獮eo" FontFace="細明體" FontSize="10" FontColor="16777215" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="384" FocusUVTop="298" FocusUVWidth="76" FocusUVHeight="18" />
                     <DownUV DownUVLeft="384" DownUVTop="318" DownUVWidth="76" DownUVHeight="18" />
@@ -121,19 +121,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="5020" WindowText="音效選項" WindowLeft="17" WindowTop="57" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
-                <BackGroundMap BGmap="function01.dds">
-                    <NorUV NorUVLeft="384" NorUVTop="278" NorUVWidth="76" NorUVHeight="18" />
-                </BackGroundMap>
-                <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="10" FontColor="16777215" FontStyle="0" />
-                <ButtonNode BtnState="0">
-                    <FocusUV FocusUVLeft="384" FocusUVTop="298" FocusUVWidth="76" FocusUVHeight="18" />
-                    <DownUV DownUVLeft="384" DownUVTop="318" DownUVWidth="76" DownUVHeight="18" />
-                    <DisableUV DisableUVLeft="384" DisableUVTop="338" DisableUVWidth="76" DisableUVHeight="18" />
-                </ButtonNode>
-            </BaseWndProperty>
-            <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="5030" WindowText="遊戲選項" WindowLeft="5000" WindowTop="83" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5020" WindowText="臂dio" WindowLeft="17" WindowTop="57" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="function01.dds">
                     <NorUV NorUVLeft="384" NorUVTop="278" NorUVWidth="76" NorUVHeight="18" />
                 </BackGroundMap>
@@ -145,7 +133,19 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="5040" WindowText="回主選單" WindowLeft="17" WindowTop="109" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5030" WindowText="Jogo" WindowLeft="5000" WindowTop="83" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+                <BackGroundMap BGmap="function01.dds">
+                    <NorUV NorUVLeft="384" NorUVTop="278" NorUVWidth="76" NorUVHeight="18" />
+                </BackGroundMap>
+                <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="10" FontColor="16777215" FontStyle="0" />
+                <ButtonNode BtnState="0">
+                    <FocusUV FocusUVLeft="384" FocusUVTop="298" FocusUVWidth="76" FocusUVHeight="18" />
+                    <DownUV DownUVLeft="384" DownUVTop="318" DownUVWidth="76" DownUVHeight="18" />
+                    <DisableUV DisableUVLeft="384" DisableUVTop="338" DisableUVWidth="76" DisableUVHeight="18" />
+                </ButtonNode>
+            </BaseWndProperty>
+            <Style ParentNode="1" CtrlType="262144" />
+            <BaseWndProperty WindowID="5040" WindowText="Menu Principal" WindowLeft="17" WindowTop="109" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="function01.dds">
                     <NorUV NorUVLeft="384" NorUVTop="278" NorUVWidth="76" NorUVHeight="18" />
                 </BackGroundMap>
@@ -157,7 +157,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="33554432" />
-            <BaseWndProperty WindowID="5070" WindowText="選項" WindowLeft="17" WindowTop="4" WindowHeight="64" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5070" WindowText="Op踥es" WindowLeft="17" WindowTop="4" WindowHeight="64" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="10" NorUVHeight="10" />
                 </BackGroundMap>
@@ -165,7 +165,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1" CtrlType="262144" />
-            <BaseWndProperty WindowID="5060" WindowText="使用手冊" WindowLeft="17" WindowTop="83" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5060" WindowText="Manual" WindowLeft="17" WindowTop="83" WindowHeight="76" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="function01.dds">
                     <NorUV NorUVLeft="384" NorUVTop="278" NorUVWidth="76" NorUVHeight="18" />
                 </BackGroundMap>

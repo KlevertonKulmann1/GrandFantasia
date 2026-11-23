@@ -119,7 +119,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="100" WindowText="社群UI" WindowLeft="17" WindowTop="4" WindowHeight="30" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="100" WindowText="Social" WindowLeft="17" WindowTop="4" WindowHeight="30" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -211,7 +211,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="262144" />
-            <BaseWndProperty WindowID="105" WindowText="搜尋UI" WindowLeft="302" WindowTop="59" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="105" WindowText="Buscar" WindowLeft="302" WindowTop="59" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -223,7 +223,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="262144" />
-            <BaseWndProperty WindowID="106" WindowText="設定UI" WindowLeft="302" WindowTop="81" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="106" WindowText="Configura踥es" WindowLeft="302" WindowTop="81" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -235,7 +235,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="33554432" />
-            <BaseWndProperty WindowID="250" WindowText="搜尋結果UI" WindowLeft="20" WindowTop="59" WindowHeight="200" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="250" WindowText="Resultados" WindowLeft="20" WindowTop="59" WindowHeight="200" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -243,7 +243,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="262144" />
-            <BaseWndProperty WindowID="301" WindowText="角色名稱UI" WindowLeft="21" WindowTop="85" WindowHeight="81" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="301" WindowText="Personagem" WindowLeft="21" WindowTop="85" WindowHeight="81" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj02.dds">
                     <NorUV NorUVLeft="267" NorUVTop="876" NorUVWidth="81" NorUVHeight="19" />
                 </BackGroundMap>
@@ -255,7 +255,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="262144" />
-            <BaseWndProperty WindowID="302" WindowText="等級UI" WindowLeft="102" WindowTop="85" WindowHeight="35" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="302" WindowText="N癉el" WindowLeft="102" WindowTop="85" WindowHeight="35" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj02.dds">
                     <NorUV NorUVLeft="357" NorUVTop="936" NorUVWidth="35" NorUVHeight="19" />
                 </BackGroundMap>
@@ -267,7 +267,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="262144" />
-            <BaseWndProperty WindowID="303" WindowText="職業UI" WindowLeft="138" WindowTop="85" WindowHeight="47" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="303" WindowText="Classe" WindowLeft="138" WindowTop="85" WindowHeight="47" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj02.dds">
                     <NorUV NorUVLeft="349" NorUVTop="876" NorUVWidth="47" NorUVHeight="19" />
                 </BackGroundMap>
@@ -279,7 +279,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="262144" />
-            <BaseWndProperty WindowID="304" WindowText="所在位置UI" WindowLeft="186" WindowTop="85" WindowHeight="89" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="304" WindowText="Localiza誽o" WindowLeft="186" WindowTop="85" WindowHeight="89" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj02.dds">
                     <NorUV NorUVLeft="267" NorUVTop="936" NorUVWidth="89" NorUVHeight="19" />
                 </BackGroundMap>
@@ -325,7 +325,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="33554432" />
-            <BaseWndProperty WindowID="107" WindowText="篩選條件UI" WindowLeft="20" WindowTop="232" WindowHeight="200" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="107" WindowText="Filtros" WindowLeft="20" WindowTop="232" WindowHeight="200" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -345,7 +345,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="33554432" />
-            <BaseWndProperty WindowID="109" WindowText="下限" WindowLeft="22" WindowTop="257" WindowHeight="55" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="109" WindowText="M璯" WindowLeft="22" WindowTop="257" WindowHeight="55" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -353,7 +353,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="33554432" />
-            <BaseWndProperty WindowID="108" WindowText="上限" WindowLeft="102" WindowTop="257" WindowHeight="55" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="108" WindowText="M嫞" WindowLeft="102" WindowTop="257" WindowHeight="55" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -361,7 +361,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="4" CtrlType="33554432" />
-            <BaseWndProperty WindowID="110" WindowText="過濾不組隊玩家" WindowLeft="200" WindowTop="257" WindowHeight="90" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="110" WindowText="Ocultar Sem Grupo" WindowLeft="200" WindowTop="257" WindowHeight="90" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

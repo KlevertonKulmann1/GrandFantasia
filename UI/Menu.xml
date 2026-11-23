@@ -21,7 +21,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="810" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="¨¤¦âÄÝ©Ê" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Atributos" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="810" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="810" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -33,7 +33,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="836" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="ª««~" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Mochila" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="836" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="836" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -45,7 +45,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="862" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="ªk³N§Þ¯à" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Habilidades" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="862" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="862" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -57,7 +57,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="888" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="¥ô°È¤é»x" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Diário de Missões" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="888" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="888" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -69,7 +69,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="914" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="¦n¤Í¦W³æ¤Î¤½·|" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Amigos e Guilda" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="914" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="914" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -81,7 +81,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="940" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="Ä_½c" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Baú" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="940" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="940" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -93,7 +93,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="966" NorUVTop="0" NorUVWidth="23" NorUVHeight="30" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="¨t²Î­µ¼Öµe­±" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Sistema e Vídeo" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="966" FocusUVTop="36" FocusUVWidth="23" FocusUVHeight="30" />
                     <DownUV DownUVLeft="966" DownUVTop="72" DownUVWidth="23" DownUVHeight="30" />
@@ -105,7 +105,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="624" NorUVTop="221" NorUVWidth="16" NorUVHeight="16" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="Âê¦í§Ö±¶¦C" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Travar Barra Rápida" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="642" FocusUVTop="221" FocusUVWidth="16" FocusUVHeight="16" />
                     <DownUV DownUVLeft="660" DownUVTop="221" DownUVWidth="16" DownUVHeight="16" />
@@ -141,7 +141,7 @@
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="624" NorUVTop="513" NorUVWidth="16" NorUVHeight="16" />
                 </BackGroundMap>
-                <BaseCtrlProperty Tips="Âê¦í§Ö±¶¦C" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
+                <BaseCtrlProperty Tips="Travar Barra Rápida" FontFace="²Ó©úÅé" FontSize="10" FontColor="0" FontStyle="0" />
                 <ButtonNode BtnState="0">
                     <FocusUV FocusUVLeft="642" FocusUVTop="513" FocusUVWidth="16" FocusUVHeight="16" />
                     <DownUV DownUVLeft="660" DownUVTop="533" DownUVWidth="16" DownUVHeight="16" />

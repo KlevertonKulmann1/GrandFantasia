@@ -61,7 +61,7 @@
                 <SlotNode />
             </BaseWndProperty>
             <Style ParentNode="5000" CtrlType="16777216" />
-            <BaseWndProperty WindowID="5200" WindowText="一二三四五六" WindowLeft="50" WindowTop="10" WindowHeight="84" WindowWidth="30" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5200" WindowText="Texto" WindowLeft="50" WindowTop="10" WindowHeight="84" WindowWidth="30" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -70,7 +70,7 @@
                 <MultiEditNode />
             </BaseWndProperty>
             <Style ParentNode="5010" CtrlType="16777216" />
-            <BaseWndProperty WindowID="5210" WindowText="一二三四五六" WindowLeft="50" WindowTop="60" WindowHeight="84" WindowWidth="30" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5210" WindowText="Texto" WindowLeft="50" WindowTop="60" WindowHeight="84" WindowWidth="30" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -79,7 +79,7 @@
                 <MultiEditNode />
             </BaseWndProperty>
             <Style ParentNode="5020" CtrlType="16777216" />
-            <BaseWndProperty WindowID="5220" WindowText="一二三四五六" WindowLeft="50" WindowTop="110" WindowHeight="84" WindowWidth="30" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="5220" WindowText="Texto" WindowLeft="50" WindowTop="110" WindowHeight="84" WindowWidth="30" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

@@ -269,7 +269,7 @@
                 </PictureNode>
             </BaseWndProperty>
             <Style ParentNode="3000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3010" WindowText="傳送地點" WindowLeft="6" WindowTop="505" WindowHeight="90" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3010" WindowText="Destino" WindowLeft="6" WindowTop="505" WindowHeight="90" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -277,7 +277,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="3000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="3020" WindowText="需要:" WindowLeft="6" WindowTop="520" WindowHeight="42" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3020" WindowText="Requer:" WindowLeft="6" WindowTop="520" WindowHeight="42" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>

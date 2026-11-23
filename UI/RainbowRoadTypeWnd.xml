@@ -261,7 +261,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1005" CtrlType="33554432" />
-            <BaseWndProperty WindowID="6001" WindowText="擲骰總和" WindowLeft="34" WindowTop="369" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6001" WindowText="Total dos Dados" WindowLeft="34" WindowTop="369" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -269,7 +269,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1005" CtrlType="33554432" />
-            <BaseWndProperty WindowID="6002" WindowText="挑戰次數" WindowLeft="34" WindowTop="397" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6002" WindowText="Tentativas" WindowLeft="34" WindowTop="397" WindowHeight="100" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -277,7 +277,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="6004" WindowText="精靈至聖所" WindowLeft="18" WindowTop="2" WindowHeight="100" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="6004" WindowText="Santu嫫io Sprite" WindowLeft="18" WindowTop="2" WindowHeight="100" WindowWidth="20" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -375,7 +375,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1007" CtrlType="262144" />
-            <BaseWndProperty WindowID="3004" WindowText="開始挑戰" WindowLeft="614" WindowTop="409" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3004" WindowText="Iniciar Desafio" WindowLeft="614" WindowTop="409" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -387,7 +387,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1001" CtrlType="131072" />
-            <BaseWndProperty WindowID="3005" WindowText="彩虹之路" WindowLeft="25" WindowTop="25" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3005" WindowText="Estrada Arco-甾is" WindowLeft="25" WindowTop="25" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="244" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
@@ -399,7 +399,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1001" CtrlType="131072" />
-            <BaseWndProperty WindowID="3006" WindowText="聖所挑戰" WindowLeft="83" WindowTop="25" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="3006" WindowText="Desafio Santu嫫io" WindowLeft="83" WindowTop="25" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="main.dds">
                     <NorUV NorUVLeft="880" NorUVTop="196" NorUVWidth="64" NorUVHeight="18" />
                 </BackGroundMap>
