@@ -20,7 +20,6 @@ launcher_version.txt
 ScreenCapture/
 UserSetting/
 User.ini
-client.ini
 
 # Backups antigos
 *_old.ini
