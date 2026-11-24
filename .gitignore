@@ -1,6 +1,8 @@
-# Pacotes pesados do jogo
+# Pacotes pesados do jogo (excecao: pkg006.pkg + pkg.idx com C_Collection.ini liberado)
 *.pkg
+!pkg006.pkg
 pkg.idx
+!pkg.idx
 pkgdata.dat
 
 # Mídias estáticas pesadas
