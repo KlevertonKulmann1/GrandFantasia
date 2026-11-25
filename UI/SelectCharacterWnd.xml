@@ -91,7 +91,7 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="101" WindowText="Item" WindowLeft="133" WindowTop="106" WindowHeight="109" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="101" WindowText="Item" WindowLeft="136" WindowTop="106" WindowHeight="106" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -99,7 +99,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="102" WindowText="Item" WindowLeft="133" WindowTop="124" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="102" WindowText="Item" WindowLeft="136" WindowTop="124" WindowHeight="76" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -107,7 +107,15 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="103" WindowText="Item" WindowLeft="189" WindowTop="124" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="103" WindowText="Item" WindowLeft="212" WindowTop="124" WindowHeight="27" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+                <BackGroundMap BGmap="Slot32.dds">
+                    <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
+                </BackGroundMap>
+                <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="9" FontColor="16777215" FontStyle="1" />
+                <TextNode TextAlign="2" MultiLine="0" />
+            </BaseWndProperty>
+            <Style ParentNode="2" CtrlType="33554432" />
+            <BaseWndProperty WindowID="104" WindowText="Item" WindowLeft="136" WindowTop="142" WindowHeight="106" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -115,7 +123,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="104" WindowText="Item" WindowLeft="133" WindowTop="142" WindowHeight="109" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="201" WindowText="Item" WindowLeft="136" WindowTop="235" WindowHeight="106" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -123,7 +131,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="201" WindowText="Item" WindowLeft="133" WindowTop="235" WindowHeight="109" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="202" WindowText="Item" WindowLeft="136" WindowTop="253" WindowHeight="76" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -131,7 +139,15 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="202" WindowText="Item" WindowLeft="133" WindowTop="253" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="203" WindowText="Item" WindowLeft="212" WindowTop="253" WindowHeight="27" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+                <BackGroundMap BGmap="Slot32.dds">
+                    <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
+                </BackGroundMap>
+                <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="9" FontColor="16777215" FontStyle="1" />
+                <TextNode TextAlign="2" MultiLine="0" />
+            </BaseWndProperty>
+            <Style ParentNode="2" CtrlType="33554432" />
+            <BaseWndProperty WindowID="204" WindowText="Item" WindowLeft="136" WindowTop="271" WindowHeight="106" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -139,7 +155,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="203" WindowText="Item" WindowLeft="189" WindowTop="253" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="301" WindowText="Item" WindowLeft="136" WindowTop="364" WindowHeight="106" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -147,7 +163,7 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="204" WindowText="Item" WindowLeft="133" WindowTop="271" WindowHeight="109" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="302" WindowText="Item" WindowLeft="136" WindowTop="382" WindowHeight="76" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
@@ -155,31 +171,15 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="301" WindowText="Item" WindowLeft="133" WindowTop="364" WindowHeight="109" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="303" WindowText="Item" WindowLeft="212" WindowTop="382" WindowHeight="27" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
                 <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="9" FontColor="16777215" FontStyle="1" />
-                <TextNode TextAlign="0" MultiLine="0" />
+                <TextNode TextAlign="2" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="302" WindowText="Item" WindowLeft="133" WindowTop="382" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
-                <BackGroundMap BGmap="Slot32.dds">
-                    <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
-                </BackGroundMap>
-                <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="9" FontColor="16777215" FontStyle="1" />
-                <TextNode TextAlign="0" MultiLine="0" />
-            </BaseWndProperty>
-            <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="303" WindowText="Item" WindowLeft="189" WindowTop="382" WindowHeight="54" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
-                <BackGroundMap BGmap="Slot32.dds">
-                    <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
-                </BackGroundMap>
-                <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="9" FontColor="16777215" FontStyle="1" />
-                <TextNode TextAlign="0" MultiLine="0" />
-            </BaseWndProperty>
-            <Style ParentNode="2" CtrlType="33554432" />
-            <BaseWndProperty WindowID="304" WindowText="Item" WindowLeft="134" WindowTop="400" WindowHeight="109" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="304" WindowText="Item" WindowLeft="136" WindowTop="400" WindowHeight="106" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
