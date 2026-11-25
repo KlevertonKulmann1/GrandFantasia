@@ -1,9 +1,11 @@
-# Pacotes pesados do jogo (excecao: pkg006.pkg + pkg.idx com C_Collection.ini liberado)
+# Pacotes pesados do jogo (excecao: pkg003.pkg + pkg006.pkg + pkg.idx com C_Spell/C_Collection atualizados)
 *.pkg
+!pkg003.pkg
 !pkg006.pkg
 pkg.idx
 !pkg.idx
 pkgdata.dat
+*.bak_*
 
 # Mídias estáticas pesadas
 bgm/
