@@ -32,27 +32,27 @@ namespace GFLauncher
         private const string RepoName = "GrandFantasia";
         private const string RegisterUrl = "http://26.96.179.219/index.php";
 
-        private const int CanvasW = 856;
+        private const int CanvasW = 1000;
         private const int CanvasH = 547;
 
-        private readonly Rectangle rectStart = new Rectangle(278, 385, 382, 162);
-        private readonly Rectangle rectStartHit = new Rectangle(326, 415, 286, 95);
-        private readonly Rectangle rectClose = new Rectangle(594, 68, 80, 40);
+        private readonly Rectangle rectStart = new Rectangle(322, 385, 382, 162);
+        private readonly Rectangle rectStartHit = new Rectangle(370, 415, 286, 95);
+        private readonly Rectangle rectClose = new Rectangle(638, 68, 80, 40);
 
-        private const int VerifyBaseX = 0;
-        private const int VerifyY = 406;
-        private const int VerifyW = 185;
-        private const int VerifyH = 45;
+        private const int VerifyBaseX = 36;
+        private const int VerifyY = 398;
+        private const int VerifyW = 287;
+        private const int VerifyH = 69;
 
-        private const int OptionsBaseX = 0;
-        private const int OptionsY = 466;
-        private const int OptionsW = 180;
-        private const int OptionsH = 45;
+        private const int OptionsBaseX = 72;
+        private const int OptionsY = 458;
+        private const int OptionsW = 287;
+        private const int OptionsH = 69;
 
-        private const int RegisterBaseX = CanvasW - 185;
-        private const int RegisterY = 436;
-        private const int RegisterW = 185;
-        private const int RegisterH = 45;
+        private const int RegisterBaseX = 682;
+        private const int RegisterY = 398;
+        private const int RegisterW = 287;
+        private const int RegisterH = 70;
 
         private Image imgLauncher;
         private Image imgBtnDisabled;
@@ -75,6 +75,11 @@ namespace GFLauncher
         private bool hoverRegister = false;
         private bool hoverClose = false;
 
+        private float verifyOffset = 0f;
+        private float optionsOffset = 0f;
+        private float registerOffset = 0f;
+        private readonly Timer animTimer;
+
         private bool isDragging = false;
         private Point dragCursorStart;
         private Point dragFormStart;
@@ -91,8 +96,14 @@ namespace GFLauncher
             BackColor = Color.FromArgb(1, 3, 1);
             TransparencyKey = Color.FromArgb(1, 3, 1);
             DoubleBuffered = true;
+            try { Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
 
             LoadAssets();
+
+            animTimer = new Timer();
+            animTimer.Interval = 16;
+            animTimer.Tick += OnAnimTick;
+            animTimer.Start();
 
             MouseMove += OnMouseMoveCanvas;
             MouseDown += OnMouseDownCanvas;
@@ -110,18 +121,56 @@ namespace GFLauncher
             Shown += delegate { CheckForUpdatesAsync(false); };
         }
 
+        private void OnAnimTick(object sender, EventArgs e)
+        {
+            float targetVerify = hoverVerify ? -14f : 0f;
+            float targetOptions = hoverOptions ? -14f : 0f;
+            float targetRegister = hoverRegister ? 14f : 0f;
+
+            bool changed = false;
+            float nextV = StepTowards(verifyOffset, targetVerify, 2.5f);
+            if (Math.Abs(nextV - verifyOffset) > 0.01f) { verifyOffset = nextV; changed = true; }
+
+            float nextO = StepTowards(optionsOffset, targetOptions, 2.5f);
+            if (Math.Abs(nextO - optionsOffset) > 0.01f) { optionsOffset = nextO; changed = true; }
+
+            float nextR = StepTowards(registerOffset, targetRegister, 2.5f);
+            if (Math.Abs(nextR - registerOffset) > 0.01f) { registerOffset = nextR; changed = true; }
+
+            if (changed) Invalidate();
+        }
+
+        private static float StepTowards(float current, float target, float speed)
+        {
+            float diff = target - current;
+            if (Math.Abs(diff) <= 0.4f) return target;
+            return current + diff * 0.25f;
+        }
+
         private Image LoadAsset(string name, bool required)
         {
-            string p = Path.Combine(Path.Combine(baseDir, "assets"), name);
-            if (!File.Exists(p))
+            string p1 = Path.Combine(Path.Combine(Path.Combine(baseDir, "launcher_src"), "assets"), name);
+            string p2 = Path.Combine(Path.Combine(baseDir, "assets"), name);
+            string diskPath = File.Exists(p1) ? p1 : (File.Exists(p2) ? p2 : null);
+            if (diskPath != null)
             {
-                if (required) throw new FileNotFoundException("Asset not found: " + p);
-                return null;
+                using (var fs = new FileStream(diskPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    return Image.FromStream(fs);
+                }
             }
-            using (var fs = new FileStream(p, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+
+            var asm = System.Reflection.Assembly.GetExecutingAssembly();
+            using (var rs = asm.GetManifestResourceStream("GFLauncher.assets." + name))
             {
-                return Image.FromStream(fs);
+                if (rs != null)
+                {
+                    return Image.FromStream(rs);
+                }
             }
+
+            if (required) throw new FileNotFoundException("Asset not found: " + name);
+            return null;
         }
 
         private void LoadAssets()
@@ -146,17 +195,17 @@ namespace GFLauncher
 
         private Rectangle GetVerifyHitRect()
         {
-            return new Rectangle(VerifyBaseX + (hoverVerify ? 8 : 0), VerifyY, VerifyW, VerifyH);
+            return new Rectangle(VerifyBaseX + (int)Math.Round(verifyOffset), VerifyY, VerifyW, VerifyH);
         }
 
         private Rectangle GetOptionsHitRect()
         {
-            return new Rectangle(OptionsBaseX + (hoverOptions ? 8 : 0), OptionsY, OptionsW, OptionsH);
+            return new Rectangle(OptionsBaseX + (int)Math.Round(optionsOffset), OptionsY, OptionsW, OptionsH);
         }
 
         private Rectangle GetRegisterHitRect()
         {
-            return new Rectangle(RegisterBaseX - (hoverRegister ? 8 : 0), RegisterY, RegisterW, RegisterH);
+            return new Rectangle(RegisterBaseX + (int)Math.Round(registerOffset), RegisterY, RegisterW, RegisterH);
         }
 
         private void OnPaintCanvas(object sender, PaintEventArgs e)
@@ -165,19 +214,30 @@ namespace GFLauncher
             g.InterpolationMode = InterpolationMode.HighQualityBicubic;
             g.SmoothingMode = SmoothingMode.AntiAlias;
 
-            if (imgLauncher != null)
+            // 1. Camada de fundo: painel escuro usando o poligono exato de masc.svg (470x365)
+            using (var bgBrush = new SolidBrush(Color.FromArgb(232, 15, 23, 42)))
+            using (var maskPath = new GraphicsPath())
             {
-                g.DrawImage(imgLauncher, new Rectangle(56, 0, 800, 547));
+                const float ox = 278f;
+                const float oy = 72f;
+                maskPath.AddPolygon(new PointF[]
+                {
+                    new PointF(ox + 0f, oy + 94f),
+                    new PointF(ox + 43.5f, oy + 67.5f),
+                    new PointF(ox + 87f, oy + 67.5f),
+                    new PointF(ox + 160.5f, oy + 12f),
+                    new PointF(ox + 230f, oy + 0f),
+                    new PointF(ox + 315f, oy + 12f),
+                    new PointF(ox + 385.5f, oy + 67.5f),
+                    new PointF(ox + 422.75f, oy + 67.5f),
+                    new PointF(ox + 470f, oy + 94f),
+                    new PointF(ox + 470f, oy + 365f),
+                    new PointF(ox + 0f, oy + 365f)
+                });
+                g.FillPath(bgBrush, maskPath);
             }
 
-            // Dark panel backdrop
-            using (var bgBrush = new SolidBrush(Color.FromArgb(228, 12, 16, 28)))
-            {
-                g.FillRectangle(bgBrush, new Rectangle(241, 138, 456, 270));
-            }
-
-            // Progress bar track
-            var progRect = new Rectangle(236, 380, 468, 28);
+            var progRect = new Rectangle(280, 380, 468, 28);
             using (var progBg = new SolidBrush(Color.FromArgb(230, 18, 22, 34)))
             {
                 g.FillRectangle(progBg, progRect);
@@ -200,19 +260,13 @@ namespace GFLauncher
             using (var bodyFont = new Font("Segoe UI", 9.5f, FontStyle.Regular))
             using (var goldBrush = new SolidBrush(Color.FromArgb(255, 245, 210, 125)))
             using (var textBrush = new SolidBrush(Color.FromArgb(240, 226, 232, 240)))
+            using (var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Near })
             {
-                g.DrawString("Bem-vindo a Celestia", titleFont, goldBrush, new PointF(260, 155));
-                g.DrawString(statusText, bodyFont, textBrush, new RectangleF(260, 195, 420, 160));
+                g.DrawString("Bem-vindo a Celestia", titleFont, goldBrush, new RectangleF(285, 175, 456, 32), sf);
+                g.DrawString(statusText, bodyFont, textBrush, new RectangleF(300, 220, 426, 140), sf);
             }
 
-            // Start button
-            Image startImg = !readyToLaunch ? imgBtnDisabled : (hoverStart ? imgBtnHover : imgBtnEnabled);
-            if (startImg != null)
-            {
-                g.DrawImage(startImg, rectStart);
-            }
-
-            // Left ribbon buttons
+            // 2. Botoes laterais (atras da moldura launcher.png, deslizando para fora no hover)
             if (imgBtnVerify != null)
             {
                 g.DrawImage(imgBtnVerify, GetVerifyHitRect());
@@ -221,18 +275,29 @@ namespace GFLauncher
             {
                 g.DrawImage(imgBtnOptions, GetOptionsHitRect());
             }
-
-            // Right register button
             if (imgBtnRegister != null)
             {
                 g.DrawImage(imgBtnRegister, GetRegisterHitRect());
             }
 
-            // Close button
+            // 3. Moldura principal do launcher
+            if (imgLauncher != null)
+            {
+                g.DrawImage(imgLauncher, new Rectangle(100, 0, 800, 547));
+            }
+
+            // 4. Botao fechar
             Image closeImg = hoverClose ? imgCloseHover : imgClose;
             if (closeImg != null)
             {
                 g.DrawImage(closeImg, rectClose);
+            }
+
+            // 5. Camada superior a tudo: botao INICIAR (disabled / enabled / hover)
+            Image startImg = !readyToLaunch ? imgBtnDisabled : (hoverStart ? imgBtnHover : imgBtnEnabled);
+            if (startImg != null)
+            {
+                g.DrawImage(startImg, rectStart);
             }
         }
 
