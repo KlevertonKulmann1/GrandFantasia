@@ -443,15 +443,15 @@
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="4200" CtrlType="262144" />
-            <BaseWndProperty WindowID="4002" WindowText="4002" WindowLeft="315" WindowTop="316" WindowHeight="64" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
-                <BackGroundMap BGmap="main.dds">
-                    <NorUV NorUVLeft="734" NorUVTop="204" NorUVWidth="64" NorUVHeight="18" />
+            <BaseWndProperty WindowID="4002" WindowText="4002" WindowLeft="274" WindowTop="314" WindowHeight="150" WindowWidth="22" Visible="1" FixSize="0" Drag="0" Drop="0">
+                <BackGroundMap BGmap="uiobj17.DDS">
+                    <NorUV NorUVLeft="474" NorUVTop="814" NorUVWidth="150" NorUVHeight="22" />
                 </BackGroundMap>
                 <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="10" FontColor="16777215" FontStyle="1" />
                 <ButtonNode BtnState="0">
-                    <FocusUV FocusUVLeft="734" FocusUVTop="226" FocusUVWidth="65" FocusUVHeight="18" />
-                    <DownUV DownUVLeft="734" DownUVTop="248" DownUVWidth="65" DownUVHeight="18" />
-                    <DisableUV DisableUVLeft="734" DisableUVTop="270" DisableUVWidth="65" DisableUVHeight="18" />
+                    <FocusUV FocusUVLeft="474" FocusUVTop="838" FocusUVWidth="150" FocusUVHeight="22" />
+                    <DownUV DownUVLeft="474" DownUVTop="838" DownUVWidth="150" DownUVHeight="22" />
+                    <DisableUV DisableUVLeft="474" DisableUVTop="814" DisableUVWidth="150" DisableUVHeight="22" />
                 </ButtonNode>
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
@@ -507,14 +507,14 @@
                 <TextNode TextAlign="0" MultiLine="0" />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="67108864" />
-            <BaseWndProperty WindowID="4107" WindowText="" WindowLeft="25" WindowTop="316" WindowHeight="226" WindowWidth="19" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4107" WindowText="" WindowLeft="22" WindowTop="315" WindowHeight="225" WindowWidth="14" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="uiobj17.DDS">
-                    <NorUV NorUVLeft="222" NorUVTop="779" NorUVWidth="225" NorUVHeight="14" />
+                    <NorUV NorUVLeft="218" NorUVTop="774" NorUVWidth="225" NorUVHeight="14" />
                 </BackGroundMap>
                 <BaseCtrlProperty Tips="" FontFace="細明體" FontSize="10" FontColor="0" FontStyle="0" />
                 <ProgressNode Max="100" Min="0" cur="0">
                     <OffSetUV UVCnt="7">
-                        <SOffset-0 x="1" y="38" />
+                        <SOffset-0 x="0" y="42" />
                         <SOffset-1 x="2" y="0" />
                         <SOffset-2 x="0" y="0" />
                         <SOffset-3 x="0" y="0" />
@@ -557,7 +557,7 @@
                 <SlotNode />
             </BaseWndProperty>
             <Style ParentNode="1000" CtrlType="33554432" />
-            <BaseWndProperty WindowID="4108" WindowText="4108" WindowLeft="25" WindowTop="317" WindowHeight="226" WindowWidth="18" Visible="1" FixSize="0" Drag="0" Drop="0">
+            <BaseWndProperty WindowID="4108" WindowText="4108" WindowLeft="22" WindowTop="315" WindowHeight="225" WindowWidth="16" Visible="1" FixSize="0" Drag="0" Drop="0">
                 <BackGroundMap BGmap="Slot32.dds">
                     <NorUV NorUVLeft="0" NorUVTop="0" NorUVWidth="0" NorUVHeight="0" />
                 </BackGroundMap>
