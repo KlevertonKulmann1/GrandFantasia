@@ -79,6 +79,8 @@ namespace GFLauncher
         private float verifyOffset = 0f;
         private float optionsOffset = 0f;
         private float registerOffset = 0f;
+        private float startHoverAnim = 0f;
+        private float closeHoverAnim = 0f;
         private readonly Timer animTimer;
 
         private bool isDragging = false;
@@ -138,6 +140,14 @@ namespace GFLauncher
 
             float nextR = StepTowards(registerOffset, targetRegister, 2.5f);
             if (Math.Abs(nextR - registerOffset) > 0.01f) { registerOffset = nextR; changed = true; }
+
+            float targetStart = (readyToLaunch && hoverStart) ? 1f : 0f;
+            float nextS = OptionsForm.StepAnim(startHoverAnim, targetStart, 0.30f);
+            if (Math.Abs(nextS - startHoverAnim) > 0.001f) { startHoverAnim = nextS; changed = true; }
+
+            float targetClose = hoverClose ? 1f : 0f;
+            float nextC = OptionsForm.StepAnim(closeHoverAnim, targetClose, 0.30f);
+            if (Math.Abs(nextC - closeHoverAnim) > 0.001f) { closeHoverAnim = nextC; changed = true; }
 
             if (changed) Invalidate();
         }
@@ -288,18 +298,17 @@ namespace GFLauncher
                 g.DrawImage(imgLauncher, new Rectangle(100, 0, 800, 547));
             }
 
-            // 4. Botao fechar
-            Image closeImg = hoverClose ? imgCloseHover : imgClose;
-            if (closeImg != null)
-            {
-                g.DrawImage(closeImg, rectClose);
-            }
+            // 4. Botao fechar com transicao suave e escala 1.03 no hover
+            OptionsForm.DrawScaledHoverImage(g, imgClose, imgCloseHover, rectClose, closeHoverAnim);
 
-            // 5. Camada superior a tudo: botao INICIAR (disabled / enabled / hover)
-            Image startImg = !readyToLaunch ? imgBtnDisabled : (hoverStart ? imgBtnHover : imgBtnEnabled);
-            if (startImg != null)
+            // 5. Camada superior a tudo: botao INICIAR (disabled / enabled / hover com escala 1.03)
+            if (!readyToLaunch)
             {
-                g.DrawImage(startImg, rectStart);
+                if (imgBtnDisabled != null) g.DrawImage(imgBtnDisabled, rectStart);
+            }
+            else
+            {
+                OptionsForm.DrawScaledHoverImage(g, imgBtnEnabled, imgBtnHover, rectStart, startHoverAnim);
             }
         }
 
@@ -807,13 +816,13 @@ namespace GFLauncher
             if (changed) Invalidate();
         }
 
-        private static float StepAnim(float cur, float target, float step)
+        internal static float StepAnim(float cur, float target, float step)
         {
             if (Math.Abs(target - cur) <= step) return target;
             return cur + (target > cur ? step : -step);
         }
 
-        private static void DrawScaledHoverImage(Graphics g, Image imgBase, Image imgHover, Rectangle baseRect, float t)
+        internal static void DrawScaledHoverImage(Graphics g, Image imgBase, Image imgHover, Rectangle baseRect, float t)
         {
             float scale = 1.0f + 0.03f * t;
             float dw = baseRect.Width * (scale - 1f);
