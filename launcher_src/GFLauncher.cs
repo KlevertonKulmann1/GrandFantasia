@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
 using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -89,6 +90,7 @@ namespace GFLauncher
         public LauncherForm()
         {
             baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            try { File.Delete(Path.Combine(baseDir, "GFLauncher.exe.new")); } catch { }
             Text = "Grand Fantasia - Celestia";
             ClientSize = new Size(CanvasW, CanvasH);
             FormBorderStyle = FormBorderStyle.None;
@@ -398,6 +400,20 @@ namespace GFLauncher
             Invalidate();
         }
 
+        private static string ComputeGitBlobSha(string filePath)
+        {
+            byte[] data = File.ReadAllBytes(filePath);
+            byte[] header = Encoding.ASCII.GetBytes("blob " + data.Length + "\0");
+            using (var sha1 = new SHA1Managed())
+            {
+                sha1.TransformBlock(header, 0, header.Length, null, 0);
+                sha1.TransformFinalBlock(data, 0, data.Length);
+                var sb = new StringBuilder(40);
+                foreach (byte b in sha1.Hash) sb.Append(b.ToString("x2"));
+                return sb.ToString();
+            }
+        }
+
         private static bool ShouldDownload(string path)
         {
             string lower = path.ToLowerInvariant();
@@ -456,6 +472,7 @@ namespace GFLauncher
                         }
 
                         var filesToDownload = new List<string>();
+                        string remoteLauncherSha = null;
                         if (!forceFull && !string.IsNullOrEmpty(localSha))
                         {
                             SetStatus("Buscando arquivos modificados...", 30);
@@ -470,8 +487,13 @@ namespace GFLauncher
                                     {
                                         string st = Convert.ToString(f["status"]);
                                         string fn = Convert.ToString(f["filename"]);
-                                        if (st != "removed" && ShouldDownload(fn))
-                                            filesToDownload.Add(fn);
+                                        if (st != "removed")
+                                        {
+                                            if (fn.Equals("GFLauncher.exe", StringComparison.OrdinalIgnoreCase))
+                                                remoteLauncherSha = Convert.ToString(f["sha"]);
+                                            else if (ShouldDownload(fn))
+                                                filesToDownload.Add(fn);
+                                        }
                                     }
                                 }
                             }
@@ -498,7 +520,10 @@ namespace GFLauncher
                                     if (Convert.ToString(item["type"]) == "blob")
                                     {
                                         string p = Convert.ToString(item["path"]);
-                                        if (ShouldDownload(p)) filesToDownload.Add(p);
+                                        if (p.Equals("GFLauncher.exe", StringComparison.OrdinalIgnoreCase))
+                                            remoteLauncherSha = Convert.ToString(item["sha"]);
+                                        else if (ShouldDownload(p))
+                                            filesToDownload.Add(p);
                                     }
                                 }
                             }
@@ -523,6 +548,30 @@ namespace GFLauncher
                         }
 
                         File.WriteAllText(verFile, remoteSha);
+
+                        if (!string.IsNullOrEmpty(remoteLauncherSha))
+                        {
+                            string curExe = Path.Combine(baseDir, "GFLauncher.exe");
+                            string localExeSha = File.Exists(curExe) ? ComputeGitBlobSha(curExe) : "";
+                            if (!string.Equals(localExeSha, remoteLauncherSha, StringComparison.OrdinalIgnoreCase))
+                            {
+                                SetStatus("Atualizando o launcher...", 98);
+                                string newExe = Path.Combine(baseDir, "GFLauncher.exe.new");
+                                string exeUrl = string.Format("https://raw.githubusercontent.com/{0}/{1}/{2}/GFLauncher.exe", RepoOwner, RepoName, activeBranch);
+                                wc.DownloadFile(exeUrl, newExe);
+                                if (File.Exists(newExe) && new FileInfo(newExe).Length > 100000)
+                                {
+                                    var psi = new ProcessStartInfo("cmd.exe", "/c ping 127.0.0.1 -n 2 > nul & move /y \"GFLauncher.exe.new\" \"GFLauncher.exe\" & start \"\" \"GFLauncher.exe\"");
+                                    psi.WorkingDirectory = baseDir;
+                                    psi.CreateNoWindow = true;
+                                    psi.UseShellExecute = false;
+                                    Process.Start(psi);
+                                    BeginInvoke(new Action(delegate { Application.Exit(); }));
+                                    return;
+                                }
+                            }
+                        }
+
                         SetStatus("Atualização concluída! Pronto para jogar.\nTodos os arquivos estão sincronizados.", 100);
                         SetReady(true);
                     }
