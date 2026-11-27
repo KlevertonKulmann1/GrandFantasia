@@ -1,0 +1,37 @@
+name: Update Launcher Manifest
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate launcher_manifest.txt
+        run: |
+          git ls-files -s | awk -F'\t' '{
+            split($1, a, " ");
+            sha = a[2];
+            path = $2;
+            lower = tolower(path);
+            if (lower ~ /^\.github\// || lower ~ /^launcher_src\// || lower == ".gitignore" || lower == "readme.md" || lower == "launcher_version.txt" || lower == "launcher_manifest.txt") next;
+            print sha "|" path;
+          }' > launcher_manifest.txt
+
+      - name: Commit manifest if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add launcher_manifest.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: atualiza launcher_manifest.txt [skip ci]"
+            git push
+          fi

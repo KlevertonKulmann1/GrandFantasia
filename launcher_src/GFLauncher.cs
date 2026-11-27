@@ -417,9 +417,9 @@ namespace GFLauncher
         private static bool ShouldDownload(string path)
         {
             string lower = path.ToLowerInvariant();
-            if (lower == ".gitignore" || lower == "readme.md" || lower == "gflauncher.exe" || lower == "launcher_version.txt")
+            if (lower == ".gitignore" || lower == "readme.md" || lower == "gflauncher.exe" || lower == "launcher_version.txt" || lower == "launcher_manifest.txt")
                 return false;
-            if (lower.StartsWith("launcher_src/"))
+            if (lower.StartsWith("launcher_src/") || lower.StartsWith(".github/"))
                 return false;
             return true;
         }
@@ -427,7 +427,7 @@ namespace GFLauncher
         private void CheckForUpdatesAsync(bool forceFull)
         {
             SetReady(false);
-            SetStatus("Conectando ao GitHub...\nVerificando se há novas traduções ou ajustes disponíveis.", 10);
+            SetStatus("Conectando ao servidor de atualizações...\nVerificando se há novas traduções ou ajustes disponíveis.", 10);
 
             Task.Run(delegate
             {
@@ -437,8 +437,6 @@ namespace GFLauncher
                     {
                         wc.Encoding = Encoding.UTF8;
                         wc.Headers.Add("User-Agent", "GFLauncher/2.0");
-                        var js = new JavaScriptSerializer();
-                        js.MaxJsonLength = int.MaxValue;
 
                         string remoteSha = null;
                         try
@@ -452,22 +450,6 @@ namespace GFLauncher
                             }
                         }
                         catch { }
-
-                        if (string.IsNullOrEmpty(remoteSha))
-                        {
-                            foreach (string br in new[] { "master", "main" })
-                            {
-                                try
-                                {
-                                    string commitJson = wc.DownloadString(string.Format("https://api.github.com/repos/{0}/{1}/commits/{2}", RepoOwner, RepoName, br));
-                                    var commitObj = js.Deserialize<Dictionary<string, object>>(commitJson);
-                                    remoteSha = Convert.ToString(commitObj["sha"]);
-                                    activeBranch = br;
-                                    break;
-                                }
-                                catch { }
-                            }
-                        }
 
                         if (string.IsNullOrEmpty(remoteSha))
                         {
@@ -486,60 +468,48 @@ namespace GFLauncher
                             return;
                         }
 
+                        SetStatus("Baixando lista de arquivos...", 25);
+                        string manifestUrl = string.Format("https://raw.githubusercontent.com/{0}/{1}/{2}/launcher_manifest.txt?t={3}", RepoOwner, RepoName, activeBranch, DateTime.UtcNow.Ticks);
+                        string manifestText = wc.DownloadString(manifestUrl);
+
                         var filesToDownload = new List<string>();
                         string remoteLauncherSha = null;
-                        if (!forceFull && !string.IsNullOrEmpty(localSha))
-                        {
-                            SetStatus("Buscando arquivos modificados...", 30);
-                            try
-                            {
-                                string cmpJson = wc.DownloadString(string.Format("https://api.github.com/repos/{0}/{1}/compare/{2}...{3}", RepoOwner, RepoName, localSha, remoteSha));
-                                var cmpObj = js.Deserialize<Dictionary<string, object>>(cmpJson);
-                                var files = cmpObj["files"] as ArrayList;
-                                if (files != null)
-                                {
-                                    foreach (Dictionary<string, object> f in files)
-                                    {
-                                        string st = Convert.ToString(f["status"]);
-                                        string fn = Convert.ToString(f["filename"]);
-                                        if (st != "removed")
-                                        {
-                                            if (fn.Equals("GFLauncher.exe", StringComparison.OrdinalIgnoreCase))
-                                                remoteLauncherSha = Convert.ToString(f["sha"]);
-                                            else if (ShouldDownload(fn))
-                                                filesToDownload.Add(fn);
-                                        }
-                                    }
-                                }
-                            }
-                            catch
-                            {
-                                forceFull = true;
-                            }
-                        }
-                        else
-                        {
-                            forceFull = true;
-                        }
+                        string[] lines = manifestText.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-                        if (forceFull)
+                        for (int idx = 0; idx < lines.Length; idx++)
                         {
-                            SetStatus("Listando arquivos do repositório...", 30);
-                            string treeJson = wc.DownloadString(string.Format("https://api.github.com/repos/{0}/{1}/git/trees/{2}?recursive=1", RepoOwner, RepoName, activeBranch));
-                            var treeObj = js.Deserialize<Dictionary<string, object>>(treeJson);
-                            var tree = treeObj["tree"] as ArrayList;
-                            if (tree != null)
+                            string line = lines[idx];
+                            int sep = line.IndexOf('|');
+                            if (sep <= 0) continue;
+                            string expectedSha = line.Substring(0, sep).Trim();
+                            string rel = line.Substring(sep + 1).Trim();
+
+                            if (rel.Equals("GFLauncher.exe", StringComparison.OrdinalIgnoreCase))
                             {
-                                foreach (Dictionary<string, object> item in tree)
+                                remoteLauncherSha = expectedSha;
+                                continue;
+                            }
+                            if (!ShouldDownload(rel)) continue;
+
+                            string dest = Path.Combine(baseDir, rel.Replace('/', Path.DirectorySeparatorChar));
+                            if (rel.Equals("client.ini", StringComparison.OrdinalIgnoreCase) && File.Exists(dest))
+                                continue;
+
+                            if (!File.Exists(dest))
+                            {
+                                filesToDownload.Add(rel);
+                            }
+                            else
+                            {
+                                if (idx % 25 == 0)
                                 {
-                                    if (Convert.ToString(item["type"]) == "blob")
-                                    {
-                                        string p = Convert.ToString(item["path"]);
-                                        if (p.Equals("GFLauncher.exe", StringComparison.OrdinalIgnoreCase))
-                                            remoteLauncherSha = Convert.ToString(item["sha"]);
-                                        else if (ShouldDownload(p))
-                                            filesToDownload.Add(p);
-                                    }
+                                    int chkPct = 25 + (int)(10.0 * idx / Math.Max(1, lines.Length));
+                                    SetStatus("Verificando integridade dos arquivos...", chkPct);
+                                }
+                                string curSha = ComputeGitBlobSha(dest);
+                                if (!string.Equals(curSha, expectedSha, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    filesToDownload.Add(rel);
                                 }
                             }
                         }
@@ -549,8 +519,6 @@ namespace GFLauncher
                         {
                             string rel = filesToDownload[i];
                             string dest = Path.Combine(baseDir, rel.Replace('/', Path.DirectorySeparatorChar));
-                            if (rel.Equals("client.ini", StringComparison.OrdinalIgnoreCase) && File.Exists(dest))
-                                continue;
 
                             int pct = 35 + (int)(60.0 * (i + 1) / Math.Max(1, total));
                             SetStatus(string.Format("Baixando ({0}/{1}): {2}", i + 1, total, rel), pct);
@@ -572,7 +540,7 @@ namespace GFLauncher
                             {
                                 SetStatus("Atualizando o launcher...", 98);
                                 string newExe = Path.Combine(baseDir, "GFLauncher.exe.new");
-                                string exeUrl = string.Format("https://raw.githubusercontent.com/{0}/{1}/{2}/GFLauncher.exe", RepoOwner, RepoName, activeBranch);
+                                string exeUrl = string.Format("https://raw.githubusercontent.com/{0}/{1}/{2}/GFLauncher.exe?t={3}", RepoOwner, RepoName, activeBranch, DateTime.UtcNow.Ticks);
                                 wc.DownloadFile(exeUrl, newExe);
                                 if (File.Exists(newExe) && new FileInfo(newExe).Length > 100000)
                                 {
