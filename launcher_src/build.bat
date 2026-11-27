@@ -1,7 +1,7 @@
 @echo off
 set CSC=C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
 set ASSETS=%~dp0assets
-"%CSC%" /nologo /target:winexe /optimize+ /win32icon:"%~dp0app.ico" /out:"%~dp0..\GFLauncher.exe" /r:System.Web.Extensions.dll ^
+"%CSC%" /nologo /target:winexe /platform:x86 /optimize+ /win32icon:"%~dp0app.ico" /win32manifest:"%~dp0app.manifest" /out:"%~dp0..\GFLauncher.exe" /r:System.Web.Extensions.dll ^
   /resource:"%ASSETS%\launcher.png",GFLauncher.assets.launcher.png ^
   /resource:"%ASSETS%\btn-disabled.png",GFLauncher.assets.btn-disabled.png ^
   /resource:"%ASSETS%\btn-enabled.png",GFLauncher.assets.btn-enabled.png ^
