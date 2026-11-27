@@ -6,12 +6,22 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
 using System.Net;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
+
+[assembly: AssemblyTitle("Grand Fantasia Celestia Launcher")]
+[assembly: AssemblyDescription("Launcher oficial do servidor Grand Fantasia Celestia")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Grand Fantasia Celestia")]
+[assembly: AssemblyProduct("GFLauncher")]
+[assembly: AssemblyCopyright("Copyright © 2026 Grand Fantasia Celestia")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
 
 namespace GFLauncher
 {
