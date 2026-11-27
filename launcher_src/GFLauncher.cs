@@ -440,27 +440,42 @@ namespace GFLauncher
                         var js = new JavaScriptSerializer();
                         js.MaxJsonLength = int.MaxValue;
 
-                        string commitJson = null;
-                        foreach (string br in new[] { "master", "main" })
+                        string remoteSha = null;
+                        try
                         {
-                            try
+                            string refsData = wc.DownloadString(string.Format("https://github.com/{0}/{1}.git/info/refs?service=git-upload-pack", RepoOwner, RepoName));
+                            Match rm = Regex.Match(refsData, @"([0-9a-f]{40})\s+refs/heads/(master|main)");
+                            if (rm.Success)
                             {
-                                commitJson = wc.DownloadString(string.Format("https://api.github.com/repos/{0}/{1}/commits/{2}", RepoOwner, RepoName, br));
-                                activeBranch = br;
-                                break;
+                                remoteSha = rm.Groups[1].Value;
+                                activeBranch = rm.Groups[2].Value;
                             }
-                            catch { }
+                        }
+                        catch { }
+
+                        if (string.IsNullOrEmpty(remoteSha))
+                        {
+                            foreach (string br in new[] { "master", "main" })
+                            {
+                                try
+                                {
+                                    string commitJson = wc.DownloadString(string.Format("https://api.github.com/repos/{0}/{1}/commits/{2}", RepoOwner, RepoName, br));
+                                    var commitObj = js.Deserialize<Dictionary<string, object>>(commitJson);
+                                    remoteSha = Convert.ToString(commitObj["sha"]);
+                                    activeBranch = br;
+                                    break;
+                                }
+                                catch { }
+                            }
                         }
 
-                        if (string.IsNullOrEmpty(commitJson))
+                        if (string.IsNullOrEmpty(remoteSha))
                         {
                             SetStatus("Modo offline: não foi possível consultar atualizações.\nVocê ainda pode clicar em INICIAR.", 100);
                             SetReady(true);
                             return;
                         }
 
-                        var commitObj = js.Deserialize<Dictionary<string, object>>(commitJson);
-                        string remoteSha = Convert.ToString(commitObj["sha"]);
                         string verFile = Path.Combine(baseDir, "launcher_version.txt");
                         string localSha = File.Exists(verFile) ? File.ReadAllText(verFile).Trim() : "";
 
